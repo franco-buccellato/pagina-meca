@@ -41,8 +41,8 @@
     border-radius: 5px;
 }
 
-.container-section-contactano a:hover {
-    box-shadow: 0 0 0 50px rgba(0,0,0,0.5);
+.buttom-contactanos:hover {
+    background-color: #fff;
 }
 
 a {
