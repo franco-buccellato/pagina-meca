@@ -1,7 +1,6 @@
 import './NavBar.css';
 import {Link} from 'react-router-dom';
-import fondoPrincipal from '../../imagenes/fondo-encabezado.png'
-import logoMecaIsologo from '../../imagenes/logo-meca-completa.png';
+import logoMecaIsologo from '../../imagenes/meca-logo-isologo.png';
 
 function NavBar() {
 

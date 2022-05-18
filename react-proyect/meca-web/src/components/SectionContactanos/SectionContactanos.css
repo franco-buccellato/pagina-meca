@@ -1,36 +1,48 @@
 .container-section-contactanos {
     position: absolute;
-    top: 35%;
-    left: 5%;
+    top: 40%;
+    left: 7%;
     width: 70%;
-    height: 50%;
     text-align: center;
     z-index: -100;
 }
 
 .container-section-contactanos h4 {
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: bold;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
 }
 
 .container-section-contactanos p {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     width: 80%;
     text-align: center;
     padding-left: 10%;
+    font-weight: lighter;
+}
+.container-section-contactanos a {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 .buttom-contactanos {
     display: flex;
     align-items: center;
     flex-direction: row;
-    font-size: 3vw;
     height: 50px;
     width: 25%;
-    margin-left: 35%;
+    margin-left: 37.5%;
+    margin-top: 30px;
     background-color: #FFE925;
     border: 3px solid #FFE925;
-    border-radius: 7px;
+    border-radius: 5px;
+}
+
+.container-section-contactano a:hover {
+    box-shadow: 0 0 0 50px rgba(0,0,0,0.5);
 }
 
 a {
@@ -41,7 +53,7 @@ a {
 
 .buttom-contactanos h3 {
     text-align: center;
-    font-size: 25px;
+    font-size: 1.2vw;
     width: 100%;
     list-style: none;
 }
