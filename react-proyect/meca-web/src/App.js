@@ -4,12 +4,13 @@ import {useState} from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import SectionContactanos from './components/SectionContactanos/SectionContactanos';
+import LeftBar from './components/LeftBar/LeftBar';
 
 function App() {
   return (
     <BrowserRouter>
       <NavBar/>
-        {/* <LeftBar/> */}
+        <LeftBar/>
         <SectionContactanos/>
         <Routes>
         </Routes>
