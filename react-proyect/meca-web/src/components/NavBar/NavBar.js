@@ -41,7 +41,7 @@ function NavBar() {
                     </div>
                     <ul className='navbar-style'>
                         <li className="list">
-                            <Link to = {'/'}>
+                            <Link to = {'/productos'}>
                             <h2 className='list-text'>Productos</h2>
                             </Link>
                         </li>

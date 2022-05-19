@@ -5,6 +5,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import SectionContactanos from './components/SectionContactanos/SectionContactanos';
 import LeftBar from './components/LeftBar/LeftBar';
+import SectionServicios from './components/SectionServicios/SectionServicios';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <LeftBar/>
         <SectionContactanos/>
         <Routes>
+          {/* <Route exact path = '/' element = {<SectionContactanos/>}/> */}
+          <Route exact path = '/productos' element = {<SectionServicios/>}/>
         </Routes>
       <Footer/>
     </BrowserRouter>
