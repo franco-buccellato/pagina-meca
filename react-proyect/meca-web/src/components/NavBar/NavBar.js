@@ -8,7 +8,7 @@ function NavBar() {
     const HideNavBar = () => {
         window.onscroll = function() {
             var currentScrollPos = window.pageYOffset;
-            if (200 > currentScrollPos) {
+            if (150 > currentScrollPos) {
                 document.getElementById('navBar').style.background = '';
                 document.getElementById('navBar').style.height = '150px';
                 document.getElementById('navBar').style.paddingBottom = '0';

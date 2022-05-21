@@ -13,9 +13,10 @@ function App() {
       <NavBar/>
         <LeftBar/>
         <SectionContactanos/>
+        <SectionServicios/>
         <Routes>
           {/* <Route exact path = '/' element = {<SectionContactanos/>}/> */}
-          <Route exact path = '/productos' element = {<SectionServicios/>}/>
+          {/* <Route exact path = '/productos' element = {<SectionServicios/>}/> */}
         </Routes>
       <Footer/>
     </BrowserRouter>

@@ -1,0 +1,68 @@
+.servicio-tableros {
+    box-sizing: border-box;
+    width: 271px;
+    height: 271px;
+    background: rgba(229, 229, 229, 0.21);
+    border: 1px solid #FFE925;
+    box-shadow: 5px 7px 13px rgba(0, 0, 0, 0.12);
+    border-radius: 100%;
+    padding: 15px;
+    z-index: 10000;
+}
+
+.container-section-servicios-tablero-lineas {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: -1.4vw;
+    left: 50px;
+    z-index: -100;
+}
+
+.container-section-servicios-tablero-lineas span {
+    font-size: 1.2vw;
+}
+
+.container-section-servicios-tablero-linea-1 {
+    margin-top: -px;
+    margin-left: -400px;
+    padding-bottom: 6px;
+}
+
+.container-section-servicios-tablero-linea-1 span {
+
+}
+
+.container-section-servicios-tablero-linea-2 {
+    margin-left: -435px;
+    padding-bottom: 6px;
+}
+
+.container-section-servicios-tablero-linea-3 {
+    margin-left: -345px;
+    padding-bottom: 6px;
+}
+
+.container-section-servicios-tablero-linea-4 {
+    margin-left: -165px;
+    padding-bottom: 20px;
+}
+
+.container-section-servicios-tablero-linea-5 {
+    margin-left: -50px;
+    padding-bottom: 6px;
+}
+
+.container-section-servicios-tablero-linea-6 {
+    margin-left: -95px;
+    padding-bottom: 6px;
+}
+
+.container-section-servicios-tablero-linea-7 {
+    margin-left: -260px;
+    padding-bottom: 6px;
+}
+
+.container-section-servicios-tablero-linea-8 {
+    margin-left: -505px;
+}
