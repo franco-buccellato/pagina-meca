@@ -11,58 +11,94 @@
 }
 
 .container-section-servicios-tablero-lineas {
-    position: relative;
     display: flex;
     flex-direction: column;
-    top: -1.4vw;
-    left: 50px;
-    z-index: -100;
+    justify-content: space-between;
+    z-index: -10000;
+    margin-left: 5vw;
+    margin-top: -1.5vw;
+}
+
+.container-section-servicios-tablero-lineas img {
+    z-index: -100000;
 }
 
 .container-section-servicios-tablero-lineas span {
+    display: inline-block;
     font-size: 1.2vw;
 }
 
 .container-section-servicios-tablero-linea-1 {
-    margin-top: -px;
-    margin-left: -400px;
-    padding-bottom: 6px;
-}
-
-.container-section-servicios-tablero-linea-1 span {
-
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-left: -12vw;
 }
 
 .container-section-servicios-tablero-linea-2 {
-    margin-left: -435px;
-    padding-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-left: -8vw;
 }
 
 .container-section-servicios-tablero-linea-3 {
-    margin-left: -345px;
-    padding-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-left: -6vw;
 }
 
 .container-section-servicios-tablero-linea-4 {
-    margin-left: -165px;
-    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-left: -5vw;
+    padding-bottom: 1.5vw;
 }
 
 .container-section-servicios-tablero-linea-5 {
-    margin-left: -50px;
-    padding-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-left: -4.5vw;
 }
 
 .container-section-servicios-tablero-linea-6 {
-    margin-left: -95px;
-    padding-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-left: -5vw;
 }
 
 .container-section-servicios-tablero-linea-7 {
-    margin-left: -260px;
-    padding-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-left: -6vw;
 }
 
 .container-section-servicios-tablero-linea-8 {
-    margin-left: -505px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-left: -9vw;
 }
+
+
+.container-section-servicios-tablero-linea-1 span,
+.container-section-servicios-tablero-linea-2 span,
+.container-section-servicios-tablero-linea-3 span,
+.container-section-servicios-tablero-linea-4 span {
+    margin-top: -1.5vh;
+    padding-left: .5vw;
+}
+
+.container-section-servicios-tablero-linea-5 span,
+.container-section-servicios-tablero-linea-6 span,
+.container-section-servicios-tablero-linea-7 span,
+.container-section-servicios-tablero-linea-8 span {
+    margin-top: 1.5vh;
+    padding-left: .5vw;
+}
+
