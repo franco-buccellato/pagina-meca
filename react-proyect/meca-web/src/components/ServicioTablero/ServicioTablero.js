@@ -16,7 +16,7 @@ function ServicioTablero({onAdd}) {
     return (
         <div className="section-servicios">
             <h3 className='section-servicos-tittle'>Tableros Eléctricos</h3>
-            <div className="container-section-servicios-tablero ">
+            <div className="container-section-servicios-tablero">
                 <div className="servicios" onClick={() => onAdd()}>
                     <img className='servicio-tableros' alt='Logo Servicio Tablero' src={servicioTablero}></img>
                 </div>

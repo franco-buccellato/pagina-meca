@@ -5,7 +5,7 @@
     top: 0;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-image: url("../../imagenes/fondo-encabezado.png");
+    background-image: url("../../imagenes/fondo-encabezado-degrade-inferior.png");
     background-position: center top;
     background-size: 100%;
     z-index: -1000;

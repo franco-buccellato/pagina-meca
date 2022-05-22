@@ -14,6 +14,7 @@ function SectionContactanos() {
                 </div>
                 </Link>
             </div>
+            <div className="bottom-gradiente"></div>
         </div>
     );
 }
