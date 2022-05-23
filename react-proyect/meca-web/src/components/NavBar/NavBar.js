@@ -52,6 +52,11 @@ function NavBar() {
                         </li>
                         <li className="list">
                             <Link to = {'/'}>
+                            <h2 className='list-text'>Nosotros</h2>
+                            </Link>
+                        </li>
+                        <li className="list">
+                            <Link to = {'/'}>
                             <h2 className='list-text'>Empresa</h2>
                             </Link>
                         </li>
