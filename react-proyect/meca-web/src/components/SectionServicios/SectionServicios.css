@@ -1,37 +1,40 @@
 .section-servicios {
     text-align: center;
     margin-top: 45vw;
-    height: 30vw;
-    padding: 0 5vw;
 }
 
 .section-servicos-tittle {
-    font-size: 3vw;
+    font-size: 30px;
     font-weight: bold;
     letter-spacing: 2px;
+    padding-bottom: 30px;
 }
 
 .container-section-servicios-base {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 10%;
 }
 
 .container-section-servicios-tablero {
     display: flex;
-    justify-content:flex-start;
-    margin-left: 8.5vw;
-    position: relative;
+    width: 80%;
+    margin: 0 10%;
 }
 
 .container-section-servicios-mas {
     display: flex;
-    justify-content:flex-end;
-    margin-right: 10vw;
+    width: 80%;
+    margin: 0 10%;
 }
 
 .container-section-servicios-montaje {
     display: flex;
     justify-content:center;
+    width: 80%;
+    margin: 0 10%;
 }
 
 .servicios {
@@ -55,8 +58,6 @@
     padding: 15px;
 }
 
-
-
 .servicio-montaje {
     box-sizing: border-box;
     width: 271px;
@@ -66,6 +67,7 @@
     box-shadow: 5px 7px 13px rgba(0, 0, 0, 0.12);
     border-radius: 100%;
     padding: 15px;
+    
 }
 
 .servicio-mas {
@@ -86,17 +88,8 @@
 
 /*RESPONSIVE*/
 @media only screen and (max-width: 1000px) {
-    .servicios img {
-        width: 200px;
-        height: 200px;
-    }
+
 }
 @media only screen and (max-width: 800px) {
-    .section-servicios {
-        margin-top: 75vw;
-    }
-    .servicios img {
-        width: 160px;
-        height: 160px;
-    }
+
 }
