@@ -30,6 +30,66 @@ const listProductos = [
         ],
         titulo : 'Tablero Test de Test',
         descripcion : "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST"
+    },
+    {
+        tableroId : 'TABLERO_1',
+        link_imagenes : [
+            fotoPrueba,
+            fotoPrueba,
+            fotoPrueba
+        ],
+        titulo : 'Tablero Test de Test',
+        descripcion : "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST"
+    },
+    {
+        tableroId : 'TABLERO_2',
+        link_imagenes : [
+            fotoPrueba,
+            fotoPrueba,
+            fotoPrueba,
+        ],
+        titulo : 'Tablero Test de Test',
+        descripcion : "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST"
+    },
+    {
+        tableroId : 'TABLERO_3',
+        link_imagenes : [
+            fotoPrueba,
+            fotoPrueba,
+            fotoPrueba
+        ],
+        titulo : 'Tablero Test de Test',
+        descripcion : "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST"
+    },
+    {
+        tableroId : 'TABLERO_1',
+        link_imagenes : [
+            fotoPrueba,
+            fotoPrueba,
+            fotoPrueba
+        ],
+        titulo : 'Tablero Test de Test',
+        descripcion : "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST"
+    },
+    {
+        tableroId : 'TABLERO_2',
+        link_imagenes : [
+            fotoPrueba,
+            fotoPrueba,
+            fotoPrueba,
+        ],
+        titulo : 'Tablero Test de Test',
+        descripcion : "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST"
+    },
+    {
+        tableroId : 'TABLERO_3',
+        link_imagenes : [
+            fotoPrueba,
+            fotoPrueba,
+            fotoPrueba
+        ],
+        titulo : 'Tablero Test de Test',
+        descripcion : "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST"
     }
 ]
 
@@ -39,7 +99,19 @@ export const getProductos = () => {
             setTimeout(
                 () => {
                     resolve(listProductos)
-                }, 2000
+                }, 100
+            )
+        }
+    )
+}
+
+export const getFirstProductos = () => {
+    return new Promise (
+        resolve => {
+            setTimeout(
+                () => {
+                    resolve(listProductos.slice(0,3))
+                }, 100
             )
         }
     )
@@ -55,7 +127,7 @@ export const getProductoById = (idProducto) => {
                             producto => producto.tableroId === idProducto
                         )
                     )
-                }, 2000
+                }, 100
             )
         }
     )

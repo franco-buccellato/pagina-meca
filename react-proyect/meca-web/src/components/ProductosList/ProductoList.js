@@ -3,7 +3,6 @@ import Producto from '../Producto/Producto';
 import { Link } from 'react-router-dom';
 
 const ProductoList = ({productos}) => {
-
     return (
         <div className="container-productos-list">
             <div className="container-productos-list-back-rectangle-1">

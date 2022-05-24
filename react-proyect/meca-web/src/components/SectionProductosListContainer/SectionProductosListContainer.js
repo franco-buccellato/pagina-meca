@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-import {getProductos} from '../repositorioProductos';
+import {getFirstProductos} from '../repositorioProductos';
 import Loader from '../Loader/Loader';
 import ProductoList from '../ProductosList/ProductoList';
 
@@ -10,9 +10,9 @@ function SectionProductosListContainer() {
 
     useEffect(
         () => {
-            getProductos().then(
-                productos => {
-                    setProductos(productos)
+            getFirstProductos().then(
+                listaProductos => {
+                    setProductos(listaProductos)
                 }
             )
         }, [productos]
