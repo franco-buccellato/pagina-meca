@@ -12,7 +12,7 @@ const ProductoList = ({productos}) => {
                             <h3 className='productos-tittle'>Nuestros Productos</h3>
                         </div>
                         <div className="container-productos">
-                            {productos.map(producto => <Producto key={producto.productoId} {...producto}/>)}
+                            {productos.map(producto => <Producto key={producto.tableroId} {...producto}/>)}
                         </div>
                         <Link to ={`/productos`}>
                             <div className='section-productos-ver-mas'>

@@ -1,5 +1,9 @@
-.container-producto {
-    margin: 0 20px;
+.container-productos .container-producto {
+    margin: 0 50px;
+}
+
+.page-products-list-container .container-producto {
+    margin: 20px;
 }
 
 .container-producto-background-1 {
