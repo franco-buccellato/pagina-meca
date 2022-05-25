@@ -1,0 +1,28 @@
+.container-componente-certificado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.componente-certificado {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+.componente-certificado img {
+    width: 70%;
+    border-radius: 50px;
+}
+
+.certificado-titulo {
+    padding: 10px 0;
+}
+
+.certificado-detalle {
+    padding: 0 10px;
+}
+
+.certificado-detalle span {
+    font-size: 15px;
+}
