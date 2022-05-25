@@ -1,0 +1,154 @@
+.container-section-nosotros {
+    text-align: center;
+    align-items: center;
+    margin: 0 80px;
+}
+
+.container-nosotros-border {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 15%;
+    background: #FFFFFF;
+    border: 1px solid #ffe81e69;
+    box-shadow: -12px 15px 35px -4px #afafaf40;
+    border-radius: 100px 40px 40px 40px;
+}
+
+.container-nosotros-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+    height: 300px;
+    margin-top: -5%;
+    margin-left: -5%;
+}
+
+.nosotros-1-duenios {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.nosotros-1-duenios img {
+    
+}
+
+.nosotros-1-detalles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 250px;
+    padding: 25PX 0;
+}
+
+.nosotros-1-detalles span {
+    width: 80%;
+}
+
+.container-nosotros-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.nosotros-2-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.nosotros-2-items-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.nosotros-2-items-1-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.nosotros-2-items-1-detalle {
+    width: 80%;
+}
+
+.nosotros-2-items-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.nosotros-2-items-2-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.nosotros-2-items-2-detalle {
+    width: 80%;
+}
+
+.nosotros-2-items-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.nosotros-2-items-3-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.nosotros-2-items-3-detalle {
+    width: 80%;
+}
+
+.nosotros-2-staff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.nosotros-2-staff img {
+    height: 200px;
+}
+
+.container-nosotros-conocenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttom-conocenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    background: #FFE925;
+    box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
