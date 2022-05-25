@@ -40,32 +40,32 @@ function NavBar() {
                         </Link>
                     </div>
                     <ul className='navbar-style'>
-                        <li className="list">
+                        <li className="list" id='title-productos' >
                             <Link to = {'/productos'}>
                             <h2 className='list-text'>Productos</h2>
                             </Link>
                         </li>
-                        <li className="list">
+                        <li className="list" id='title-clientes' >
                             <Link to = {'/'}>
                             <h2 className='list-text'>Clientes</h2>
                             </Link>
                         </li>
-                        <li className="list">
+                        <li className="list" id='title-nosotros' >
                             <Link to = {'/'}>
                             <h2 className='list-text'>Nosotros</h2>
                             </Link>
                         </li>
-                        <li className="list">
+                        <li className="list" id='title-empresa' >
                             <Link to = {'/'}>
                             <h2 className='list-text'>Empresa</h2>
                             </Link>
                         </li>
-                        <li className="list">
+                        <li className="list" id='title-novedades' >
                             <Link to = {'/'}>
                                 <h2 className='list-text'>Novedades</h2>
                             </Link>
                         </li>
-                        <li className="list-trabaja-con-nosotros">
+                        <li className="list-trabaja-con-nosotros" id='title-trabaja-con-nosotros' >
                             <Link to = {'/'}>
                                 <h2 className='list-text'>Trabajá con Nosotros</h2>
                             </Link>
