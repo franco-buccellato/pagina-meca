@@ -6,10 +6,13 @@ import {useState} from 'react';
 import ServicioTablero from '../ServicioTablero/ServicioTablero';
 import ServicioMontaje from '../ServicioMontaje/ServicioMontaje';
 import ServicioMas from '../ServicioMas/ServicioMas';
+import {getTextServicios} from '../repositorioServicios.js';
 
 function SectionServicios() {
 
     const [servicio, setServicio] = useState();
+
+    const textosServicios = getTextServicios();
 
     const setServicioTablero = () => {
         setServicio('tableros');
@@ -44,15 +47,15 @@ function SectionServicios() {
                     <div className="container-section-servicios-base">
                         <div className="servicios" onClick={() => setServicioTablero()}>
                             <img className='servicio-base' alt='Logo Servicio Tablero' src={servicioTablero}></img>
-                            <h4 className='servicio-text'>Tableros Eléctricos</h4>
+                            <h4 className='servicio-text'>{textosServicios.servicio1}</h4>
                         </div>
                         <div className="servicios" onClick={() => setServicioMontaje()}>
                             <img className='servicio-base' alt='Logo Servicio Montaje' src={serviciomontaje}></img>
-                            <h4 className='servicio-text'>Montaje e Instalación</h4>
+                            <h4 className='servicio-text'>{textosServicios.servicio2}</h4>
                         </div>
                         <div className="servicios" onClick={() => setServicioMas()}>
                             <img className='servicio-base' alt='Logo Servicio Mas' src={servicioMas}></img>
-                            <h4 className='servicio-text'>Más Servicios</h4>
+                            <h4 className='servicio-text'>{textosServicios.servicio3}</h4>
                         </div>
                     </div>
                 </div>
