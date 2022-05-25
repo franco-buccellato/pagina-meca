@@ -1,8 +1,8 @@
-.container-productos .container-producto {
+.container-productos, .container-producto0, .container-producto1, .container-producto2 {
     margin: 0 50px;
 }
 
-.page-products-list-container .container-producto {
+.page-products-list-container, .container-producto0, .container-producto1, .container-producto2 {
     margin: 20px;
 }
 
@@ -49,7 +49,19 @@
 
 /*RESPONSIVE*/
 @media only screen and (max-width: 1150px) {
-    .container-productos .container-producto {
+    .container-productos, .container-producto0, .container-producto1, .container-producto2  {
         margin: 0 20px;
     }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-producto1, .container-producto2  {
+        display: none;
+    }
+    .container-producto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
