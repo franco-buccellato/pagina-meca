@@ -24,14 +24,30 @@ function ServicioTablero({onAdd}) {
                     <img className='servicio-tableros' alt='Logo Servicio Tablero' src={servicioTablero}></img>
                 </div>
                 <div className="container-section-servicios-tablero-lineas">
-                    <div className="container-section-servicios-tablero-linea-1"><img alt='Linea 18' src={linea18Tablero}></img><span>{textosServicios.servicio1Detalle1}</span></div>
-                    <div className="container-section-servicios-tablero-linea-2"><img alt='Linea 19' src={linea19Tablero}></img><span>{textosServicios.servicio1Detalle2}</span></div>
-                    <div className="container-section-servicios-tablero-linea-3"><img alt='Linea 20' src={linea20Tablero}></img><span>{textosServicios.servicio1Detalle3}</span></div>
-                    <div className="container-section-servicios-tablero-linea-4"><img alt='Linea 16' src={linea16Tablero}></img><span>{textosServicios.servicio1Detalle4}</span></div>
-                    <div className="container-section-servicios-tablero-linea-5"><img alt='Linea 17' src={linea17Tablero}></img><span>{textosServicios.servicio1Detalle5}</span></div>
-                    <div className="container-section-servicios-tablero-linea-6"><img alt='Linea 21' src={linea21Tablero}></img><span>{textosServicios.servicio1Detalle6}</span></div>
-                    <div className="container-section-servicios-tablero-linea-7"><img alt='Linea 22' src={linea22Tablero}></img><span>{textosServicios.servicio1Detalle7}</span></div>
-                    <div className="container-section-servicios-tablero-linea-8"><img alt='Linea 23' src={linea23Tablero}></img><span>{textosServicios.servicio1Detalle8}</span></div>
+                    <div className="container-section-servicios-tablero-linea-1">
+                        <img alt='Linea 18' src={linea18Tablero}></img><span>{textosServicios.servicio1Detalle1}</span>
+                    </div>
+                    <div className="container-section-servicios-tablero-linea-2">
+                        <img alt='Linea 19' src={linea19Tablero}></img><span>{textosServicios.servicio1Detalle2}</span>
+                    </div>
+                    <div className="container-section-servicios-tablero-linea-3">
+                        <img alt='Linea 20' src={linea20Tablero}></img><span>{textosServicios.servicio1Detalle3}</span>
+                    </div>
+                    <div className="container-section-servicios-tablero-linea-4">
+                        <img alt='Linea 16' src={linea16Tablero}></img><span>{textosServicios.servicio1Detalle4}</span>
+                    </div>
+                    <div className="container-section-servicios-tablero-linea-5">
+                        <img alt='Linea 17' src={linea17Tablero}></img><span>{textosServicios.servicio1Detalle5}</span>
+                    </div>
+                    <div className="container-section-servicios-tablero-linea-6">
+                        <img alt='Linea 21' src={linea21Tablero}></img><span>{textosServicios.servicio1Detalle6}</span>
+                    </div>
+                    <div className="container-section-servicios-tablero-linea-7">
+                        <img alt='Linea 22' src={linea22Tablero}></img><span>{textosServicios.servicio1Detalle7}</span>
+                    </div>
+                    <div className="container-section-servicios-tablero-linea-8">
+                        <img alt='Linea 23' src={linea23Tablero}></img><span>{textosServicios.servicio1Detalle8}</span>
+                    </div>
                 </div>
             </div>
         </div>

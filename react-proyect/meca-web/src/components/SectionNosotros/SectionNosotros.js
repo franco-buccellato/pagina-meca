@@ -1,5 +1,4 @@
 import './SectionNosotros.css'; 
-import {Link} from 'react-router-dom';
 import FotoDuenios from '../../imagenes/eugenio-dario.png';
 import FotoStaff from '../../imagenes/STAFF4.jpg';
 import LogoStaff from '../../imagenes/icono-staff.png';
@@ -31,28 +30,28 @@ function SectionNosotros() {
                         <div className='nosotros-2-items-1'>
                             <div className='nosotros-2-items-1-logo'>
                                 <img alt='logo-staff' src={LogoStaff}></img>
-                                <span><b>Staff</b></span>
+                                <span><b>{textosPaginaNosotros.titulo1}</b></span>
                             </div>
                             <div className='nosotros-2-items-1-detalle'>
-                                <span>{textosPaginaNosotros.staffDetalle}</span>
+                                <span>{textosPaginaNosotros.detalle1}</span>
                             </div>
                         </div>
                         <div className='nosotros-2-items-2'>
                             <div className='nosotros-2-items-2-logo'>
                                 <img alt='logo-objetivo' src={LogoObjetivo}></img>
-                                <span><b>Objetivo</b></span>
+                                <span><b>{textosPaginaNosotros.titulo2}</b></span>
                             </div>
                             <div className='nosotros-2-items-2-detalle'>
-                                <span>{textosPaginaNosotros.objetivoDetalle}</span>
+                                <span>{textosPaginaNosotros.detalle2}</span>
                             </div>
                         </div>
                         <div className='nosotros-2-items-3'>
                             <div className='nosotros-2-items-3-logo'>
                                 <img alt='logo-progreso' src={LogoProgreso}></img>
-                                <span><b>Progreso</b></span>
+                                <span><b>{textosPaginaNosotros.titulo3}</b></span>
                             </div>
                             <div className='nosotros-2-items-3-detalle'>
-                                <span>{textosPaginaNosotros.progresoDetalle}</span>
+                                <span>{textosPaginaNosotros.detalle3}</span>
                             </div>
                         </div>
                     </div>
@@ -61,11 +60,11 @@ function SectionNosotros() {
                     </div>
                 </div>
                 <div className='container-nosotros-conocenos'>
-                    <Link to = {'/nosotros'}>
+                    <a href="https://www.linkedin.com/company/meca-electromec%C3%A1nica-s-a/" target="_blank" rel="noreferrer">
                         <div className="buttom-conocenos">
                             <h3>¡Conócenos!</h3>
                         </div>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </div>
