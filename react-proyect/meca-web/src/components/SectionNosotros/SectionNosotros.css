@@ -1,7 +1,13 @@
 .container-section-nosotros {
     text-align: center;
     align-items: center;
-    margin: 0 80px;
+    margin: 80px 0;
+}
+
+.container-nosotros-title h4 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .container-nosotros-border {
@@ -34,10 +40,6 @@
     width: 50%;
 }
 
-.nosotros-1-duenios img {
-    
-}
-
 .nosotros-1-detalles {
     display: flex;
     flex-direction: column;
@@ -57,6 +59,7 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    margin: 20px 0;
 }
 
 .nosotros-2-items {
@@ -72,6 +75,7 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    padding: 10px 0;
 }
 
 .nosotros-2-items-1-logo {
@@ -79,11 +83,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 20%;
+    width: 30%;
+}
+
+.nosotros-2-items-1-logo img {
+    height: 40%;
 }
 
 .nosotros-2-items-1-detalle {
-    width: 80%;
+    width: 70%;
+    padding-right: 15%;
+}
+
+.nosotros-2-items-1-detalle span {
+    font-size: 13px;
 }
 
 .nosotros-2-items-2 {
@@ -91,6 +104,7 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    padding: 10px 0;
 }
 
 .nosotros-2-items-2-logo {
@@ -98,11 +112,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 20%;
+    width: 30%;
+}
+
+.nosotros-2-items-2-logo img {
+    height: 40%;
 }
 
 .nosotros-2-items-2-detalle {
-    width: 80%;
+    width: 70%;
+    padding-right: 15%;
+}
+
+.nosotros-2-items-2-detalle span {
+    font-size: 13px;
 }
 
 .nosotros-2-items-3 {
@@ -110,6 +133,7 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    padding: 10px 0;
 }
 
 .nosotros-2-items-3-logo {
@@ -117,11 +141,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 20%;
+    width: 35%;
+}
+
+.nosotros-2-items-3-logo img {
+    height: 40%;
 }
 
 .nosotros-2-items-3-detalle {
-    width: 80%;
+    width: 70%;
+    padding-right: 15%;
+}
+
+.nosotros-2-items-3-detalle span {
+    font-size: 13px;
 }
 
 .nosotros-2-staff {
@@ -132,13 +165,17 @@
 }
 
 .nosotros-2-staff img {
-    height: 200px;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    margin-right: 20%;
 }
 
 .container-nosotros-conocenos {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .buttom-conocenos {
