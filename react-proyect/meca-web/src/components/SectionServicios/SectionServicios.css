@@ -37,6 +37,10 @@
     margin: 0 10%;
 }
 
+.card-tablero, .card-montaje, .card-mas {
+    display: flex;
+}
+
 .servicios, .servicios-aux {
     z-index: 100;
 }
@@ -136,6 +140,9 @@
     .servicios-aux img {
         width: 150px;
         height: 150px;
+    }
+    .card-tablero, .card-montaje, .card-mas {
+        display: block;
     }
 }
 @media only screen and (max-width: 600px) {

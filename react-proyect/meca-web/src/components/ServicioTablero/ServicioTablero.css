@@ -110,6 +110,13 @@
     display: none;
 }
 
+.servicios-aux {
+    display: none;
+}
+.servicios-aux-mobile { 
+    display: none;
+}
+
 /*RESPONSIVE*/
 @media only screen and (max-width: 1000px) {
     .container-section-servicios-tablero-lineas {

@@ -119,14 +119,17 @@
         border-radius: 20px;
         margin-bottom: 50px;
         padding-right: 10px;
+        margin-right: 0;
+        margin-left: 0;
     }
+    
     .container-section {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
     .servicio-mas {
-        margin-top: 100px;
+        /* margin-top: 100px; */
     }
     .servicios-aux-mobile {
         display: block;
