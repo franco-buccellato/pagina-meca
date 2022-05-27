@@ -37,11 +37,11 @@
     margin: 0 10%;
 }
 
-.servicios {
+.servicios, .servicios-aux {
     z-index: 100;
 }
 
-.servicios img {
+.servicios img, .servicios-aux img {
     width: 240px;
     height: 240px;
     z-index: 1000;
@@ -67,7 +67,6 @@
     box-shadow: 5px 7px 13px rgba(0, 0, 0, 0.12);
     border-radius: 100%;
     padding: 15px;
-    
 }
 
 .servicio-mas {
@@ -82,14 +81,104 @@
 }
 
 .servicio-text {
-    font-size: 1.5vw;
+    font-size: 20px;
     font-weight: bold;
+}
+
+.servicio-responsive {
+    display: none;
 }
 
 /*RESPONSIVE*/
 @media only screen and (max-width: 1000px) {
-
+    .servicios img, .servicios-aux img {
+        height: 200px;
+        width: 200px;
+        z-index: 1000;
+    }
+    .section-servicios {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 5%;
+        padding-top: 30vw;
+    }
+    .container-section-servicios-tablero {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-around;
+        /* align-items: center; */
+        width: 90%;
+    }
+    .container-section-servicios-montaje {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-around;
+        /* align-items: center; */
+        width: 90%;
+    }
+    .container-section-servicios-mas {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-around;
+        /* align-items: center; */
+        width: 90%;
+    }
+    .section-servicos-tittle {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    .servicios-aux {
+        z-index: 100;
+        width: 100%;
+    }
+    .servicios-aux img {
+        width: 150px;
+        height: 150px;
+    }
 }
-@media only screen and (max-width: 800px) {
-
+@media only screen and (max-width: 600px) {
+    .section-servicios {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 5%;
+        padding-top: 0;
+    }
+    .container-section-servicios-tablero {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+    }
+    .container-section-servicios-montaje {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+    }
+    .container-section-servicios-mas {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+    }
+    .servicios img, .servicios-aux-mobile img {
+        height: 150px;
+        width: 150px;
+        z-index: 1000;
+    }
+    .servicios {
+        z-index: 100;
+        width: 100%;
+    }
+    .servicios-aux {
+        z-index: 100;
+        width: 100%;
+    }
 }

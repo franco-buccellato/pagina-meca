@@ -1,10 +1,5 @@
 .leftBar {
-    padding: 0px;
-    margin: 0px;
-    position: fixed;
-    right: -130px;
-    top: 230px;
-    z-index: 1000000;
+    
 }
 
 .container-navigation-left {
@@ -24,4 +19,10 @@
 
 .column img {
     width: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+    .leftbar {
+        display: none;
+    }
 }

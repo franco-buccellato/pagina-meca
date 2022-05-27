@@ -14,13 +14,13 @@ const ProductoList = ({productos}) => {
                         <div className="container-productos">
                             {productos.map((producto, index) => <Producto key={producto.tableroId} {...producto} index={index}/>)}
                         </div>
-                        <Link to ={`/productos`}>
-                            <div className='section-productos-ver-mas'>
+                        <div className='section-productos-ver-mas'>
+                            <Link to ={`/productos`}>
                                 <div className='productos-ver-mas'>
                                     <span className='productos-ver-mas-span'>Ver mas</span>
-                                    </div>
-                            </div>
-                        </Link>
+                                </div>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>

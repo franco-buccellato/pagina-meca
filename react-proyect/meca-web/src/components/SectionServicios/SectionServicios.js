@@ -27,6 +27,8 @@ function SectionServicios() {
         setServicio();
     }
 
+    
+
     switch(servicio) {
         case 'tableros':
             return (
@@ -42,7 +44,7 @@ function SectionServicios() {
             )
         default:
             return (
-                <div className="section-servicios">
+                <div className="section-servicios" id='section-servicios'>
                     <h3 className='section-servicos-tittle'>Nuestros Servicios</h3>
                     <div className="container-section-servicios-base">
                         <div className="servicios" onClick={() => setServicioTablero()}>

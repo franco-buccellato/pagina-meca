@@ -3,7 +3,6 @@ import {getFirstProductos} from '../repositorioProductos';
 import Loader from '../Loader/Loader';
 import ProductoList from '../ProductosList/ProductoList';
 
-
 function SectionProductosListContainer() {
 
     const [productos, setProductos] = useState([]);

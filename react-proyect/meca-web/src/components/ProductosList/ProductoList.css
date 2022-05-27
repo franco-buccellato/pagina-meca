@@ -27,9 +27,8 @@
 .container-productos-list-back-rectangle-1 {
     display: flex;
     justify-content: center;
-    /* width: 750px; */
     width: 75%;
-    height: 500px;
+    height: 510px;
     background: #ffe9259e;
     border-radius: 50px;
 }
@@ -37,9 +36,7 @@
 .container-productos-list-back-rectangle-2 {
     display: flex;
     justify-content: center;
-    /* width: 720px; */
     width: 95%;
-    /* height: 470px; */
     height: 95%;
     margin-top: 15px;
     background: #FFE925;
@@ -67,14 +64,13 @@
 .section-productos-ver-mas {
     display: flex;
     justify-content: center;
-
 }
 
 .productos-ver-mas {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 10px;
     width: 150px;
     height: 50px;
     background-color: #FFF6A8;
