@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 function SectionContactanos() {
 
     return (
-        <div className="background-contactanos">
+        <div className="background-contactanos" id='section-contactanos'>
             <div className="container-section-contactanos">
                 <h4>Una experiencia de calidad</h4>
                 <p>Diseño, fabricación y puesta en marcha de tableros eléctricos para la generación y distribución de energía eléctrica.</p>

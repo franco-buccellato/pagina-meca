@@ -7,7 +7,7 @@ function SectionEmpresa() {
     const textosPaginaEmpresa = getTextEmpresa();
 
     return (
-        <div className="container-section-empresa">
+        <div className="container-section-empresa" id='section-empresa'>
             <div className="container-empresa">
                 <div className='container-empresa-title'>
                     <img alt='Icono Empresa' src={IconoEmpresa}></img>

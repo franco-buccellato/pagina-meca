@@ -11,7 +11,7 @@ function SectionNosotros() {
     const textosPaginaNosotros = getTextNosotros();
 
     return (
-        <div className="container-section-nosotros">
+        <div className="container-section-nosotros" id='section-nosotros'>
             <div className='container-nosotros-title'>
                 <h4>{textosPaginaNosotros.titulo}</h4>
             </div>

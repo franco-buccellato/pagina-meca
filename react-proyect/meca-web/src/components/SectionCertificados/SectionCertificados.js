@@ -24,7 +24,7 @@ function SectionCertificados() {
     }
 
     return (
-        <div className="container-section-certificados">
+        <div className="container-section-certificados" id='section-certificados'>
             <div className="container-certificados">
                 <div className='container-certificados-title'>
                     <img alt='Icono Certificados' src={IconoCertificado}></img>

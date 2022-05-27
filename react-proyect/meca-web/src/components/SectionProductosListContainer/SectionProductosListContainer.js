@@ -18,7 +18,7 @@ function SectionProductosListContainer() {
     )
 
     return (
-        <div className="section-productos">
+        <div className="section-productos" id='section-productos'>
             {
                 productos.length > 0 ? <ProductoList productos = {productos}/> : <Loader/>
             }

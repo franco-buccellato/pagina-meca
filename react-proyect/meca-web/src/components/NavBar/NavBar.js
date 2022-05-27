@@ -41,34 +41,46 @@ function NavBar() {
                     </div>
                     <ul className='navbar-style'>
                         <li className="list" id='title-productos' >
-                            <Link to = {'/productos'}>
-                            <h2 className='list-text'>Productos</h2>
-                            </Link>
+                            {/* <Link to = {'/productos'}> */}
+                            <a href='#section-servicios'>
+                                <h2 className='list-text'>Productos</h2>
+                            </a>
+                            {/* </Link> */}
                         </li>
                         <li className="list" id='title-clientes' >
-                            <Link to = {'/'}>
-                            <h2 className='list-text'>Clientes</h2>
-                            </Link>
+                            {/* <Link to = {'/'}> */}
+                            <a href='#section-contactanos'>
+                                <h2 className='list-text'>Clientes</h2>
+                            </a>
+                            {/* </Link> */}
                         </li>
                         <li className="list" id='title-nosotros' >
-                            <Link to = {'/'}>
-                            <h2 className='list-text'>Nosotros</h2>
-                            </Link>
+                            {/* <Link to = {'/'}> */}
+                            <a href='#section-nosotros'>
+                                <h2 className='list-text'>Nosotros</h2>
+                            </a>
+                            {/* </Link> */}
                         </li>
                         <li className="list" id='title-empresa' >
-                            <Link to = {'/'}>
+                            {/* <Link to = {'/'}> */}
+                            <a href='#section-empresa'>
                             <h2 className='list-text'>Empresa</h2>
-                            </Link>
+                        </a>
+                            {/* </Link> */}
                         </li>
                         <li className="list" id='title-novedades' >
-                            <Link to = {'/'}>
+                            {/* <Link to = {'/'}> */}
+                            <a href='#section-contactanos'>
                                 <h2 className='list-text'>Novedades</h2>
-                            </Link>
+                            </a>
+                            {/* </Link> */}
                         </li>
                         <li className="list-trabaja-con-nosotros" id='title-trabaja-con-nosotros' >
-                            <Link to = {'/'}>
+                            {/* <Link to = {'/'}> */}
+                            <a href='#section-contactanos'>
                                 <h2 className='list-text'>Trabajá con Nosotros</h2>
-                            </Link>
+                            </a>
+                            {/* </Link> */}
                         </li>
                     </ul>
                 </div>
