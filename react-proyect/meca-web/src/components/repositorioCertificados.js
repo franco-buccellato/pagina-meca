@@ -1,7 +1,7 @@
 /*Schneider*/
 import certificadoConvenio from '../imagenes/lvpanel-schneider-certificaciones.png';
 import certificadoLV from '../imagenes/lvpanel-schneider-certificaciones.png';
-import certificadoAPM from '../imagenes/lvpanel-schneider-certificaciones.png';
+import certificadoAPM from '../imagenes/apm-schneider-certificaciones.jpg';
 /*Iram*/
 import certificadoEntrega from '../imagenes/lvpanel-schneider-certificaciones.png';
 import IRAM9001 from '../imagenes/lvpanel-schneider-certificaciones.png';

@@ -13,7 +13,7 @@ function SectionCertificados() {
     const certificadosIram = getCertificadosIram();
 
     let indiceCarrouselIram = 0;
-    let indiceCarrouselSea = 0;
+    let indiceCarrouselSea = 2;
 
     function prevSlide() {
 
