@@ -4,7 +4,7 @@
 
 .section-servicios {
     text-align: center;
-    margin-top: 45vw;
+    margin-top: 40vw;
 }
 
 .section-servicos-tittle {
@@ -110,7 +110,7 @@
         flex-wrap: wrap;
         width: 90%;
         margin: 0 5%;
-        padding-top: 30vw;
+        margin-top: 25vw;
     }
     .container-section-servicios-tablero {
         display: flex;
@@ -149,6 +149,11 @@
         display: block;
     }
 }
+@media only screen and (max-width: 800px) {
+    .section-servicios {
+        margin-top: 45vw;
+    }
+}
 @media only screen and (max-width: 600px) {
     .section-servicios {
         display: flex;
@@ -156,6 +161,7 @@
         flex-wrap: wrap;
         width: 90%;
         margin: 0 5%;
+        margin-top: 45vw;
         padding-top: 0;
     }
     .container-section-servicios-tablero {
@@ -191,5 +197,11 @@
     .servicios-aux {
         z-index: 100;
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .section-servicios {
+        margin-top: 45vw;
     }
 }
