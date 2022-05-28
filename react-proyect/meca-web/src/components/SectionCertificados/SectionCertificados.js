@@ -49,6 +49,11 @@ function SectionCertificados() {
                             </div>
                         </div>
                     </div>
+                    <div className='logos-certificados-responsive'>
+                        <div className='logo-certificado'>
+                            <img alt='Logo Sea' src={logoCertificacionSchneider}></img>
+                        </div>
+                    </div>
                     <div className='componente-carrousel'>
                         <div className='arrow-back'>
                             <div className='arrow-back-icono'>
@@ -65,6 +70,11 @@ function SectionCertificados() {
                             <div className='arrow-next-icono'>
                                 <img alt='Arrow Next' src={arrowNext}></img>
                             </div>
+                        </div>
+                    </div>
+                    <div className='logos-certificados-responsive'>
+                        <div className='logo-certificado-iram'>
+                            <img alt='Logo Iram' src={logoCertificacionIram}></img>
                         </div>
                     </div>
                 </div>

@@ -39,7 +39,7 @@
 
 .componente-carrousel, .logo-certificado, .logo-certificado-iram {
     display: flex;
-    width: 40%;
+    width: 35%;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -78,4 +78,64 @@
 .logo-certificado-iram img {
     margin-top: 50px;
     width: 25%;
+}
+
+.logos-certificados-responsive {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .componente-carrousel, .logo-certificado, .logo-certificado-iram {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .certificados {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        margin: 0 20%;
+    }
+    .logos-certificados {
+        display: none;
+    }
+    .logos-certificados-responsive {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .componente-carrousel, .logo-certificado, .logo-certificado-iram {
+        width: 90%;
+    }
+    .arrow-next {
+        width: 60px;
+        height: 45px;
+    }
+    .arrow-back {
+        width: 60px;
+        height: 45px;
+    }
+    .container-certificados-title img {
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .certificados {
+        width: 100%;
+        margin: 0 0;
+    }
+    .container-certificados-title img {
+        width: 20%;
+    }
+    .container-certificados-title h4 {
+        width: 90%;
+        padding: 0 5%;
+    }
 }
