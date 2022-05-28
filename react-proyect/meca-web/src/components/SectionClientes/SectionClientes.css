@@ -1,0 +1,90 @@
+.container-section-clientes {
+    margin-top: 200px;
+    height: 1000px;
+
+    /* background-color: aqua; */
+}
+
+.container-banner-clientes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container-banner-icono {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    z-index: 1000;
+}
+
+.container-banner-icono img {
+    height: 250px;
+}
+
+.container-banner-background {
+    margin-top: -150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+}
+
+.container-banner-background-imagen {
+    display: flex;
+    height: 500px;
+    /* width: 100%; */
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-image: url("../../imagenes/parque-clientes-recortado.png");
+    background-position: center top;
+    background-size: 100%;
+    /* background-size: auto; */
+    z-index: -100000;
+}
+
+.container-banner-background-texto {
+    margin-top: -100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-banner-background-texto span {
+    width: 70%;
+    font-size: 27px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container-banner-carrousel {
+    margin-top: -100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #FFFFFFc7;
+    z-index: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container-banner-background-imagen {
+        background-position: right top;
+        background-size: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container-banner-background-imagen {
+        display: flex;
+        margin-top: -150px;
+        height: 500px;
+        width: 100%;
+        background-size: 100%;
+    }
+}

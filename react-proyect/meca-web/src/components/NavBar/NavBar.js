@@ -63,7 +63,7 @@ function NavBar() {
                         </li>
                         <li className="list" id='title-clientes' >
                             {/* <Link to = {'/'}> */}
-                            <a href='#section-contactanos'>
+                            <a href='#section-clientes'>
                                 <h2 className='list-text'>Clientes</h2>
                             </a>
                             {/* </Link> */}
@@ -127,7 +127,7 @@ function NavBar() {
                         </li>
                         <li className="list-responsive" id='title-clientes' >
                             {/* <Link to = {'/'}> */}
-                            <a href='#section-contactanos'>
+                            <a href='#section-clientes'>
                                 <h2 className='list-text-responsive'><ion-icon name="file-tray-full-outline"></ion-icon>Clientes</h2>
                             </a>
                             {/* </Link> */}
