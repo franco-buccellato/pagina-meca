@@ -11,7 +11,6 @@
 .container-nosotros-title h4 {
     font-size: 30px;
     font-weight: bold;
-    letter-spacing: 2px;
 }
 
 .container-nosotros-border {
@@ -212,7 +211,7 @@
         background: #FFFFFF;
         border: 1px solid #ffe81e69;
         box-shadow: -12px 15px 35px -4px #afafaf40;
-        border-radius: 40px 40px 40px 40px;
+        border-radius: 100px 100px 40px 40px;
         height: 100%;
     }
     .container-nosotros-1 {
@@ -286,5 +285,8 @@
 @media only screen and (max-width: 500px) {
     .container-nosotros-1 {
         height: 450px;
+    }
+    .container-nosotros-title h4 {
+        margin-bottom: 10px;
     }
 }

@@ -9,7 +9,7 @@ const ProductoList = ({productos}) => {
                 <div className="container-productos-list-back-rectangle-2">
                     <div className="container-productos-title">
                         <div className='section-productos-tittle'>
-                            <h3 className='productos-tittle'>Nuestros Productos</h3>
+                            <h3 className='productos-tittle'>Nuestros productos</h3>
                         </div>
                         <div className="container-productos">
                             {productos.map((producto, index) => <Producto key={producto.tableroId} {...producto} index={index}/>)}
