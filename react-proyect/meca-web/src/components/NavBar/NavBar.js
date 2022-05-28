@@ -16,7 +16,7 @@ function NavBar() {
                 document.getElementById('logo-navBar').src = logoMecaIsologo;
                 document.getElementById('logo-navBar').style.marginBottom = '0';
             } else {
-                document.getElementById('navBar').style.background = '#ffffffea ';
+                document.getElementById('navBar').style.background = '#ffffffea';
                 document.getElementById('navBar').style.height = '80px';
                 document.getElementById('navBar').style.paddingBottom = '20px';
                 document.getElementById('navBar').style.borderBottomLeftRadius = '30px';
@@ -111,7 +111,7 @@ function NavBar() {
                                 <ion-icon name="menu-outline" size='large'></ion-icon>
                             </div>
                         </div>
-                        <div id='close' className='container-cerrar' onClick={() => GuardarMenu()}>
+                        <div id='close' className='container-close' onClick={() => GuardarMenu()}>
                             <div className="cerrar">
                                 <ion-icon name="close-outline" size='large'></ion-icon>
                             </div>

@@ -41,7 +41,8 @@
 .nosotros-1-duenios {
     display: flex;
     justify-content: center;
-    width: 50%;
+    /* width: 50%; */
+    width: 370px;
 }
 
 .nosotros-1-detalles {
@@ -192,4 +193,42 @@
     background: #FFE925;
     box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-nosotros-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 0 0;
+        height: 600px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .nosotros-1-duenios {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 400px;
+    }
+    .nosotros-1-duenios img {
+        height: 400px;
+    }
+    .nosotros-1-detalles {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        padding: 25px 0;
+    }
+    .container-nosotros-2 {
+        /* display: none; */
+
+    }
+    .nosotros-2-staff {
+        display: none;
+    }
 }
