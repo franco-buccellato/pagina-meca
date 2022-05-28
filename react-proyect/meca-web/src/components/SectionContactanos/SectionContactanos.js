@@ -1,5 +1,5 @@
 import './SectionContactanos.css';
-import {Link} from 'react-router-dom';
+/* import {Link} from 'react-router-dom'; */
 
 function SectionContactanos() {
 
@@ -8,11 +8,13 @@ function SectionContactanos() {
             <div className="container-section-contactanos">
                 <h4>Una experiencia de calidad</h4>
                 <p>Diseño, fabricación y puesta en marcha de tableros eléctricos para la generación y distribución de energía eléctrica.</p>
-                <Link to = {'/contactanos'}>
-                <div className="buttom-contactanos">
-                    <h3>Contáctanos</h3>
-                </div>
-                </Link>
+                {/* <Link to = {'/contactanos'}> */}
+                <a href='#section-contactanos'>
+                    <div className="buttom-contactanos">
+                        <h3>Contáctanos</h3>
+                    </div>
+                </a>
+                {/* </Link> */}
             </div>
             <div className="bottom-gradiente"></div>
         </div>

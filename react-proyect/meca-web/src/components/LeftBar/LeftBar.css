@@ -21,8 +21,33 @@
     width: 80px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .leftbar {
-        display: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 300px;
+    }
+    .leftbar-style {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #FFE925b0;
+        border-radius: 24px;
+    }
+    .column img {
+    width: 80px;
+    margin: 0 -10PX;
+}
+}
+
+@media only screen and (max-width: 650px) {
+    .leftbar {
+        padding-top: 300px;
     }
 }

@@ -155,6 +155,7 @@
         width: 100%;
     }
     .navbar-responsive-fijo {
+        margin-top: 10px;
         display: flex;
         width: 100%;
         height: 50px;
@@ -193,7 +194,6 @@
     .navbar-list-responsive {
         padding-top: 300px;
         position: absolute;
-        /* display: flex; */
         flex-direction: column;
         justify-content: center;
         align-items: center;

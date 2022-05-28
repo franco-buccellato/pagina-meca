@@ -27,14 +27,14 @@ function NavBar() {
         }
     }
 
-    function DesplegarMenu () {
+    function DesplegarMenu() {
         console.log('Debería estar desplegando Menu');
         document.getElementById('navbar-list-responsive').style.display = 'flex';
         document.getElementById('open').style.display = 'none';
         document.getElementById('close').style.display = 'flex';
     }
 
-    function GuardarMenu () {
+    function GuardarMenu() {
         console.log('Debería estar guardando el Menu');
         document.getElementById('navbar-list-responsive').style.display = 'none';
         document.getElementById('open').style.display = 'flex';
