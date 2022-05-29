@@ -8,7 +8,6 @@ const Certificado = ({certificadoId, linkImagen, titulo, detalle}) => {
             <div className="componente-certificado">
                 <div className='certificado-foto'>
                     <img alt={certificadoId} src={certificadoTest}></img>
-                    {console.log(linkImagen)}
                 </div>
                 <div className='certificado-titulo'>
                     <span><b>{titulo}</b></span>

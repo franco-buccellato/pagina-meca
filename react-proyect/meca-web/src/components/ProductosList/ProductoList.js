@@ -17,7 +17,7 @@ const ProductoList = ({productos}) => {
                         <div className='section-productos-ver-mas'>
                             <Link to ={`/productos`}>
                                 <div className='productos-ver-mas'>
-                                    <span className='productos-ver-mas-span'>Ver mas</span>
+                                    <span className='productos-ver-mas-span'>Ver más</span>
                                 </div>
                             </Link>
                         </div>

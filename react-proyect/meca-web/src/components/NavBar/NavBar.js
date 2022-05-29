@@ -92,7 +92,7 @@ function NavBar() {
                         <li className="list-trabaja-con-nosotros" id='title-trabaja-con-nosotros' >
                             {/* <Link to = {'/'}> */}
                             <a href='#section-contactanos'>
-                                <h2 className='list-text'>Trabajá con Nosotros</h2>
+                                <h2 className='list-text' id='button-trabaja'>Trabajá con Nosotros</h2>
                             </a>
                             {/* </Link> */}
                         </li>
