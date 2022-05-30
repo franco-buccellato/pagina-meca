@@ -110,6 +110,7 @@ function SectionCertificados() {
                     </div>
                 </div>
             </div>
+            <div id='section-clientes'></div>
         </div>
     );
 }

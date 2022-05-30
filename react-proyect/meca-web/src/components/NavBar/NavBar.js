@@ -1,5 +1,5 @@
 import './NavBar.css';
-import {Link} from 'react-router-dom';
+/* import {Link} from 'react-router-dom'; */
 import logoMecaIsologo from '../../imagenes/meca-logo-isologo.png';
 import logoMecaTexto from '../../imagenes/logo-meca-text.png';
 
@@ -72,7 +72,7 @@ function NavBar() {
                         </li>
                         <li className="list" id='title-nosotros' >
                             {/* <Link to = {'/'}> */}
-                            <a href='#section-nosotros'>
+                            <a href='#section-nosotros-id'>
                                 <h2 className='list-text'>Nosotros</h2>
                             </a>
                             {/* </Link> */}
@@ -138,7 +138,7 @@ function NavBar() {
                         </li>
                         <li className="list-responsive" id='title-nosotros' >
                             {/* <Link to = {'/'}> */}
-                            <a href='#section-nosotros'>
+                            <a href='#section-nosotros-id'>
                                 <h2 className='list-text-responsive'><ion-icon name="people-outline"></ion-icon>Nosotros</h2>
                             </a>
                             {/* </Link> */}

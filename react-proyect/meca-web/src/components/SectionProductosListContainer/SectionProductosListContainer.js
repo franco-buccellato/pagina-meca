@@ -22,6 +22,7 @@ function SectionProductosListContainer() {
             {
                 productos.length > 0 ? <ProductoList productos = {productos}/> : <Loader/>
             }
+            <div id='section-nosotros-id'></div>
         </div>
     );
 }

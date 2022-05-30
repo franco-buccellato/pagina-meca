@@ -85,7 +85,6 @@ a {
         background-image: url("../../imagenes/fondo-encabezado-degrade-inferior.png");
         background-position: center top;
         background-size: 150%;
-        z-index: -1000;
     }
     .container-section-contactanos {
         margin-top: -11%;

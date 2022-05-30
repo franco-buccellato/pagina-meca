@@ -8,8 +8,8 @@ const listProductos = [
             fotoPrueba,
             fotoPrueba
         ],
-        titulo : 'Tablero Test de Test',
-        descripcion : "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST"
+        titulo : 'Tablero 1',
+        descripcion : "TEST 1"
     },
     {
         tableroId : 'TABLERO_2',
@@ -18,8 +18,8 @@ const listProductos = [
             fotoPrueba,
             fotoPrueba,
         ],
-        titulo : 'Tablero Test de Test',
-        descripcion : "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST"
+        titulo : 'Tablero 2',
+        descripcion : "TEST 2"
     },
     {
         tableroId : 'TABLERO_3',
@@ -28,8 +28,8 @@ const listProductos = [
             fotoPrueba,
             fotoPrueba
         ],
-        titulo : 'Tablero Test de Test',
-        descripcion : "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST"
+        titulo : 'Tablero 3',
+        descripcion : "TEST 3"
     },
     {
         tableroId : 'TABLERO_4',
@@ -38,8 +38,8 @@ const listProductos = [
             fotoPrueba,
             fotoPrueba
         ],
-        titulo : 'Tablero Test de Test',
-        descripcion : "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST"
+        titulo : 'Tablero 4',
+        descripcion : "TEST 4"
     },
     {
         tableroId : 'TABLERO_5',
@@ -48,8 +48,8 @@ const listProductos = [
             fotoPrueba,
             fotoPrueba,
         ],
-        titulo : 'Tablero Test de Test',
-        descripcion : "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST"
+        titulo : 'Tablero 5',
+        descripcion : "TEST 5"
     },
     {
         tableroId : 'TABLERO_6',
@@ -58,38 +58,8 @@ const listProductos = [
             fotoPrueba,
             fotoPrueba
         ],
-        titulo : 'Tablero Test de Test',
-        descripcion : "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST"
-    },
-    {
-        tableroId : 'TABLERO_7',
-        link_imagenes : [
-            fotoPrueba,
-            fotoPrueba,
-            fotoPrueba
-        ],
-        titulo : 'Tablero Test de Test',
-        descripcion : "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST"
-    },
-    {
-        tableroId : 'TABLERO_8',
-        link_imagenes : [
-            fotoPrueba,
-            fotoPrueba,
-            fotoPrueba,
-        ],
-        titulo : 'Tablero Test de Test',
-        descripcion : "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST"
-    },
-    {
-        tableroId : 'TABLERO_9',
-        link_imagenes : [
-            fotoPrueba,
-            fotoPrueba,
-            fotoPrueba
-        ],
-        titulo : 'Tablero Test de Test',
-        descripcion : "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST"
+        titulo : 'Tablero 6',
+        descripcion : "TEST 6"
     }
 ]
 

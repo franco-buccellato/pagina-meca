@@ -9,7 +9,7 @@ function SectionClientes() {
     const textosPaginaClientes = getTextosClientes();
 
     return (
-        <div className="container-section-clientes" id='section-clientes'>
+        <div className="container-section-clientes">
             <div className='container-banner-clientes'>
                 <div className='container-banner-icono'>
                     <img alt='Icono Clientes' src={iconoClientes}></img>
