@@ -8,13 +8,12 @@
     background-image: url("../../imagenes/fondo-encabezado-degrade-inferior.png");
     background-position: center top;
     background-size: 100%;
-    z-index: -1000;
+    z-index: 0;
 }
 
 .container-section-contactanos {
     margin-top: -21%;
     position: relative;
-    /* top: 40%; */
     top: 45vw;
     left: 7%;
     width: 70%;
@@ -41,6 +40,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
+    text-decoration: none;
 }
 
 .buttom-contactanos {
@@ -54,10 +54,7 @@
     background-color: #FFE925;
     border: 3px solid #FFE925;
     border-radius: 5px;
-}
-
-.buttom-contactanos h3:hover {
-    background-color: #fff;
+    z-index: 10000;
 }
 
 a {

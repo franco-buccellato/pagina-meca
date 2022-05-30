@@ -1,5 +1,5 @@
 import './LeftBar.css'
-import {Link} from 'react-router-dom';
+/* import {Link} from 'react-router-dom'; */
 import iconoLinkedin from '../../imagenes/icono-linkedin.png';
 import iconoInstagram from '../../imagenes/icono-instagram.png';
 import iconoFacebook from '../../imagenes/icono-facebook.png';
@@ -35,14 +35,14 @@ function LeftBar() {
                     </li>
                     <li className="column">
                         {/* <Link to = {'/'}> */}
-                        <a href="https://www.linkedin.com/company/meca-electromec%C3%A1nica-s-a/" target="_blank" rel="noreferrer">
+                        <a href="https://www.youtube.com/channel/UCohcytkhjFq7If3w8YTZ17g" target="_blank" rel="noreferrer">
                             <img className='icono-leftbar' alt='Icono Youtube' src={iconoYoutube}></img>
                         </a>
                         {/* </Link> */}
                     </li>
                     <li className="column">
                         {/* <Link to = {'/'}> */}
-                        <a href="https://wa.me/+54 9 11 5508-8881" target="_blank" rel="noreferrer">
+                        <a href="https://wa.me/+5491155088881" target="_blank" rel="noreferrer">
                             <img className='icono-leftbar' alt='Icono WhatsApp' src={iconoWsp}></img>
                         </a>
                         {/* </Link> */}

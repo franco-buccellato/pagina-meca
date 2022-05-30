@@ -44,14 +44,16 @@ function NavBar() {
     HideNavBar();
 
     return (
-        <div className="navbar">
+        <div className="navbar" id='top-landig-page'>
             <div className="background"></div>
             <div className="container-navigation">
                 <nav className="navigation" id='navBar'>
                     <div className='container-logo-marca' id='logo-nav-bar'>
-                        <Link to = {'/'}>
+                        {/* <Link to = {'/'}> */}
+                        <a href='#top-landig-page'>
                             <img id='logo-navBar' className='logo-pagina' alt='Logo' src={logoMecaIsologo}></img>
-                        </Link>
+                        </a>
+                        {/* </Link> */}
                     </div>
                     <ul className='navbar-style'>
                         <li className="list" id='title-productos' >
@@ -102,9 +104,11 @@ function NavBar() {
                 <nav id='navigation-responsive' className='navigation-responsive'>
                     <div className='navbar-responsive-fijo'>
                         <div className='container-logo-marca-responsive' id='logo-nav-bar'>
-                            <Link to = {'/'}>
+                            {/* <Link to = {'/'}> */}
+                            <a href='#top-landing-page'>
                                 <img className='logo-pagina-responsive' alt='Logo' src={logoMecaTexto}></img>
-                            </Link>
+                            </a>
+                            {/* </Link> */}
                         </div>
                         <div id='open' className='container-open' onClick={() => DesplegarMenu()}>
                             <div className="open">
