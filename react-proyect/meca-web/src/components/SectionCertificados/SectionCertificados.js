@@ -6,21 +6,44 @@ import arrowBack from '../../imagenes/icono-arrow-back.png';
 import arrowNext from '../../imagenes/icono-arrow-next.png';
 import logoCertificacionSchneider from '../../imagenes/titulo-schneider-certificaciones.png';
 import logoCertificacionIram from '../../imagenes/titulo-iram-certificaciones.png';
+import { useEffect, useState } from 'react';
 
 function SectionCertificados() {
 
     const certificadoSea = getCertificadosSchneider();
     const certificadosIram = getCertificadosIram();
 
-    let indiceCarrouselIram = 0;
-    let indiceCarrouselSea = 2;
+    const [indiceSea, setIndiceSea] = useState(0);
+    const [indiceIram, setIndiceIram] = useState(0);
 
-    function prevSlide() {
+    useEffect(
+        () => {
+            console.log('Se corrio el certificado de Sea.')
+        },
+        [indiceSea]
+    )
 
+    useEffect(
+        () => {
+            console.log('Se corrio el certificado de Sea.')
+        },
+        [indiceIram]
+    )
+
+    const prevSlideSea = () => {
+        indiceSea >= 1 ? setIndiceSea(indiceSea - 1) : console.log('Primer certificado Sea.');
     }
 
-    function nextSlide() {
-        
+    const nextSlideSea = () => {
+        indiceSea < certificadoSea.length - 1 ? setIndiceSea(indiceSea + 1) : console.log("Último certificado Sea.");
+    }
+
+    const prevSlideIram = () => {
+        indiceIram >= 1 ? setIndiceIram(indiceIram - 1) : console.log('Primer certificado Iram.');
+    }
+
+    const nextSlideIram = () => {
+        indiceIram < certificadosIram.length - 1 ? setIndiceIram(indiceIram + 1) : console.log("Último certificado  Iram.");
     }
 
     return (
@@ -33,7 +56,7 @@ function SectionCertificados() {
                 <div className='certificados'>
                     <div className='componente-carrousel'>
                         <div className='arrow-back'>
-                            <div className='arrow-back-icono' onClick={() => prevSlide()}>
+                            <div className='arrow-back-icono' onClick={() => prevSlideSea()}>
                                 <img alt='Arrow Back' src={arrowBack}></img>
                             </div>
                         </div>
@@ -41,10 +64,10 @@ function SectionCertificados() {
                             {/* {
                                 certificadoSea.map((certificado, index) => <Certificado key={index} {...certificado}/>)
                             } */}
-                            <Certificado key={certificadoSea[indiceCarrouselSea].certificadoId} {...certificadoSea[indiceCarrouselSea]}/>
+                            <Certificado key={certificadoSea[indiceSea].certificadoId} {...certificadoSea[indiceSea]}/>
                         </div>
                         <div className='arrow-next'>
-                            <div className='arrow-next-icono' onClick={() => nextSlide()}>
+                            <div className='arrow-next-icono' onClick={() => nextSlideSea()}>
                                 <img alt='Arrow Next' src={arrowNext}></img>
                             </div>
                         </div>
@@ -56,7 +79,7 @@ function SectionCertificados() {
                     </div>
                     <div className='componente-carrousel'>
                         <div className='arrow-back'>
-                            <div className='arrow-back-icono'>
+                            <div className='arrow-back-icono' onClick={() => prevSlideIram()}>
                                 <img alt='Arrow Back' src={arrowBack}></img>
                             </div>
                         </div>
@@ -64,10 +87,10 @@ function SectionCertificados() {
                             {/*  {
                                 certificadosIram.map((certificado, index) => <Certificado key={index} {...certificado}/>)
                             } */}
-                            <Certificado key={certificadosIram[indiceCarrouselIram].certificadoId} {...certificadosIram[indiceCarrouselIram]}/>
+                            <Certificado key={certificadosIram[indiceIram].certificadoId} {...certificadosIram[indiceIram]}/>
                         </div>
                         <div className='arrow-next'>
-                            <div className='arrow-next-icono'>
+                            <div className='arrow-next-icono' onClick={() => nextSlideIram()}>
                                 <img alt='Arrow Next' src={arrowNext}></img>
                             </div>
                         </div>
