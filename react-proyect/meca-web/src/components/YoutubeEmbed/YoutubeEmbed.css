@@ -1,25 +1,8 @@
-/* .video-responsive {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
+@media only screen and (max-width: 600px) {
+    iframe {
+        /* width : 560px;
+        height : 315px; */
+        width: 280px;
+        height: 160px;
+    }
 }
-.video-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-} */
-
-/* .video-responsive {
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
-
-.video-responsive iframe {
-    display: flex;
-    width: 100%;
-    height: 100%;
-} */

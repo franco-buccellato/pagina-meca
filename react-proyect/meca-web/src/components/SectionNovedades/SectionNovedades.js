@@ -42,8 +42,7 @@ const SectionNovedades = () => {
                     </div>
                     <div className='novedades-videos'>
                         <div className='novedades-video'>
-                            {/* <YoutubeEmbed embedId={idVideo}/> */}
-                            {/* <YoutubeEmbed embedId={listIdVideos[indiceVideo].idVideo} /> */}
+                            <YoutubeEmbed embedId={listIdVideos[indiceVideo].idVideo} />
                         </div>
                     </div>
                     <div className='arrow-next-video' onClick={nextVideo}>
