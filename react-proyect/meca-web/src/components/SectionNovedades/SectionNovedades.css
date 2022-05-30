@@ -1,7 +1,7 @@
 /*   color: #FFE925; */
 .container-section-novedades {
     width: 100%;
-    margin-top: 400px;
+    /* margin-top: 400px; */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
