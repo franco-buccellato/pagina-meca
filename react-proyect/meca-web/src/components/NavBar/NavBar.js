@@ -1,7 +1,7 @@
 import './NavBar.css';
-/* import {Link} from 'react-router-dom'; */
-import logoMecaIsologo from '../../imagenes/meca-logo-isologo.png';
-import logoMecaTexto from '../../imagenes/logo-meca-text.png';
+import {Link} from 'react-router-dom';
+import logoMecaIsologo from '../../imagenes/meca-logo-isologo.webp';
+import logoMecaTexto from '../../imagenes/logo-meca-text.webp';
 
 function NavBar() {
 
@@ -49,11 +49,9 @@ function NavBar() {
             <div className="container-navigation">
                 <nav className="navigation" id='navBar'>
                     <div className='container-logo-marca' id='logo-nav-bar'>
-                        {/* <Link to = {'/'}> */}
-                        <a href='#top-landig-page'>
+                        <Link to = {'/'}>
                             <img id='logo-navBar' className='logo-pagina' alt='Logo' src={logoMecaIsologo}></img>
-                        </a>
-                        {/* </Link> */}
+                        </Link>
                     </div>
                     <ul className='navbar-style'>
                         <li className="list" id='title-productos' >
@@ -104,11 +102,9 @@ function NavBar() {
                 <nav id='navigation-responsive' className='navigation-responsive'>
                     <div className='navbar-responsive-fijo'>
                         <div className='container-logo-marca-responsive' id='logo-nav-bar'>
-                            {/* <Link to = {'/'}> */}
-                            <a href='#top-landing-page'>
+                            <Link to = {'/'}>
                                 <img className='logo-pagina-responsive' alt='Logo' src={logoMecaTexto}></img>
-                            </a>
-                            {/* </Link> */}
+                            </Link>
                         </div>
                         <div id='open' className='container-open' onClick={() => DesplegarMenu()}>
                             <div className="open">

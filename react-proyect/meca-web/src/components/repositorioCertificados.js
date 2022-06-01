@@ -1,11 +1,11 @@
 /*Schneider*/
-import certificadoConvenio from '../imagenes/lvpanel-schneider-certificaciones.png';
-import certificadoLV from '../imagenes/lvpanel-schneider-certificaciones.png';
-import certificadoAPM from '../imagenes/apm-schneider-certificaciones.jpg';
+import certificadoConvenio from '../imagenes/lvpanel-schneider-certificaciones.webp';
+import certificadoLV from '../imagenes/lvpanel-schneider-certificaciones.webp';
+import certificadoAPM from '../imagenes/apm-schneider-certificaciones.webp';
 /*Iram*/
-import certificadoEntrega from '../imagenes/lvpanel-schneider-certificaciones.png';
-import IRAM9001 from '../imagenes/lvpanel-schneider-certificaciones.png';
-import IRAM45001 from '../imagenes/lvpanel-schneider-certificaciones.png';
+import certificadoEntrega from '../imagenes/lvpanel-schneider-certificaciones.webp';
+import IRAM9001 from '../imagenes/lvpanel-schneider-certificaciones.webp';
+import IRAM45001 from '../imagenes/lvpanel-schneider-certificaciones.webp';
 
 const certificadoSchneider =
     [   

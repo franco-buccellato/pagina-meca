@@ -2,8 +2,8 @@ import './ProductoList.css';
 import Producto from '../Producto/Producto';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import arrowBack from '../../imagenes/icono-arrow-back.png';
-import arrowNext from '../../imagenes/icono-arrow-next.png';
+import arrowBack from '../../imagenes/icono-arrow-back.webp';
+import arrowNext from '../../imagenes/icono-arrow-next.webp';
 
 const ProductoList = ({productos}) => {
 
@@ -12,8 +12,6 @@ const ProductoList = ({productos}) => {
     useEffect(
         () => {
             console.log('Se corrio el Producto.');
-            console.log(productos[indexProducto].tableroId);
-            console.log(productos[indexProducto]);
         },
         [indexProducto]
     )
@@ -38,14 +36,14 @@ const ProductoList = ({productos}) => {
                             {productos.map((producto, index) => <Producto key={producto.tableroId} {...producto} index={index}/>)}
                         </div>
                         <div className="container-productos-responsive">
-                            <div className='arrow-back-product'>
-                                <div className='arrow-back-icono-product' onClick={() => prevProdcut()}>
+                            <div className='arrow-back-product' onClick={() => prevProdcut()}>
+                                <div className='arrow-back-icono-product'>
                                     <img alt='Arrow Back' src={arrowBack}></img>
                                 </div>
                             </div>
                             <Producto key={productos[indexProducto].tableroId} {...productos[indexProducto]} index={0}/>
-                            <div className='arrow-next-product'>
-                                <div className='arrow-next-icono-product' onClick={() => nextProduct()}>
+                            <div className='arrow-next-product' onClick={() => nextProduct()}>
+                                <div className='arrow-next-icono-product'>
                                     <img alt='Arrow Next' src={arrowNext}></img>
                                 </div>
                             </div>

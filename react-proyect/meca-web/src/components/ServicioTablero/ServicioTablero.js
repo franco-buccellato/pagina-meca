@@ -1,7 +1,7 @@
 import './ServicioTablero.css';
-import servicioTablero from '../../imagenes/tableros-servicios.png';
-import serviciomontaje from '../../imagenes/montaje-servicios.png';
-import servicioMas from '../../imagenes/mas-servicios.png';
+import servicioTablero from '../../imagenes/tableros-servicios.webp';
+import serviciomontaje from '../../imagenes/montaje-servicios.webp';
+import servicioMas from '../../imagenes/mas-servicios.webp';
 /*SVG Tableros*/
 import linea16Tablero from '../../imagenes/lineas-tableros/Line 16conjunto-lineas-tableros.svg';
 import linea17Tablero from '../../imagenes/lineas-tableros/Line 17conjunto-lineas-tableros.svg';

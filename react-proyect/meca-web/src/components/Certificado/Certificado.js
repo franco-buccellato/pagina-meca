@@ -1,5 +1,5 @@
 import './Certificado.css'
-import certificadoTest from '../../imagenes/lvpanel-schneider-certificaciones.png';
+import certificadoTest from '../../imagenes/lvpanel-schneider-certificaciones.webp';
 
 const Certificado = ({certificadoId, linkImagen, titulo, detalle}) => {
 

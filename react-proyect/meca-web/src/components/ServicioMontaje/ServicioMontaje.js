@@ -1,7 +1,7 @@
 import './ServicioMontaje.css';
-import servicioTablero from '../../imagenes/tableros-servicios.png';
-import serviciomontaje from '../../imagenes/montaje-servicios.png';
-import servicioMas from '../../imagenes/mas-servicios.png';
+import servicioTablero from '../../imagenes/tableros-servicios.webp';
+import serviciomontaje from '../../imagenes/montaje-servicios.webp';
+import servicioMas from '../../imagenes/mas-servicios.webp';
 /*SVG Montajes*/
 import linea20Montaje from '../../imagenes/lineas-montaje/Line 20despliegue-montaje-servicios.svg';
 import linea21Montaje from '../../imagenes/lineas-montaje/Line 21despliegue-montaje-servicios.svg';

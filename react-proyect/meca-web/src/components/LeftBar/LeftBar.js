@@ -1,10 +1,10 @@
 import './LeftBar.css'
 /* import {Link} from 'react-router-dom'; */
-import iconoLinkedin from '../../imagenes/icono-linkedin.png';
-import iconoInstagram from '../../imagenes/icono-instagram.png';
-import iconoFacebook from '../../imagenes/icono-facebook.png';
-import iconoYoutube from '../../imagenes/icono-youtube.png';
-import iconoWsp from '../../imagenes/icono-wsp.png';
+import iconoLinkedin from '../../imagenes/icono-linkedin.webp';
+import iconoInstagram from '../../imagenes/icono-instagram.webp';
+import iconoFacebook from '../../imagenes/icono-facebook.webp';
+import iconoYoutube from '../../imagenes/icono-youtube.webp';
+import iconoWsp from '../../imagenes/icono-wsp.webp';
 
 function LeftBar() {
 

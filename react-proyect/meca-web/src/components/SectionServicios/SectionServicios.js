@@ -1,7 +1,7 @@
 import './SectionServicios.css';
-import servicioTablero from '../../imagenes/tableros-servicios.png';
-import serviciomontaje from '../../imagenes/montaje-servicios.png';
-import servicioMas from '../../imagenes/mas-servicios.png';
+import servicioTablero from '../../imagenes/tableros-servicios.webp';
+import serviciomontaje from '../../imagenes/montaje-servicios.webp';
+import servicioMas from '../../imagenes/mas-servicios.webp';
 import {useState} from 'react';
 import ServicioTablero from '../ServicioTablero/ServicioTablero';
 import ServicioMontaje from '../ServicioMontaje/ServicioMontaje';

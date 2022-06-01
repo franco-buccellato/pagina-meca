@@ -2,6 +2,10 @@
     margin: 0 50px;
 }
 
+.container-productoundefined {
+    padding: 25px 10px;
+}
+
 .page-products-list-container, .container-producto0, .container-producto1, .container-producto2 {
     margin: 20px;
 }

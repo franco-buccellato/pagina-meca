@@ -1,4 +1,4 @@
-import fotoPrueba from '../imagenes/TABLERO-DE-CONTROL-ITAU-4-768x576 1.png';
+import fotoPrueba from '../imagenes/TABLERO-DE-CONTROL-ITAU-4-768x576-1.webp';
 
 const listProductos = [
     {
@@ -8,8 +8,8 @@ const listProductos = [
             fotoPrueba,
             fotoPrueba
         ],
-        titulo : 'Tablero 1',
-        descripcion : "TEST 1"
+        titulo : 'Tablero de Baja Tensión',
+        descripcion : "Tablero de Baja tensión para distribución en los 8 pisos del nuevo edificio que va a ser sede de Google.kdmfksdmfñ kañfkaokaoñs kaoñsk fkdmfksdmfñ kañfkaokaoñs kaoñsk fñosdkfoñdks oñfkds oñ fkdsoñkfño dskf oñdskfoñksdoñ kdmfksdmfñ kañfkaokaoñs kaoñsk fñosdkfoñdks oñfkds oñ fkdsoñkfño dskf oñdskfoñksdoñ kdmfksdmfñ kañfkaokaoñs kaoñsk fñosdkfoñdks oñfkds oñ fkdsoñkfño dskf oñdskfoñksdoñ kdmfksdmfñ kañfkaokaoñs kaoñsk fñosdkfoñdks oñfkds oñ fkdsoñkfño dskf oñdskfoñksdoñ kdmfksdmfñ kañfkaokaoñs kaoñsk fñosdkfoñdks oñfkds oñ fkdsoñkfño dskf oñdskfoñksdoñ kdmfksdmfñ kañfkaokaoñs kaoñsk fñosdkfoñdks oñfkds oñ fkdsoñkfño dskf oñdskfoñksdoñ kdmfksdmfñ kañfkaokaoñs kaoñsk fñosdkfoñdks oñfkds oñ fkdsoñkfño dskf oñdskfoñksdoñ kdmfksdmfñ kañfkaokaoñs kaoñsk fñosdkfoñdks oñfkds oñ fkdsoñkfño dskf oñdskfoñksdoñ kdmfksdmfñ kañfkaokaoñs kaoñsk fñosdkfoñdks oñfkds oñ fkdsoñkfño dskf oñdskfoñksdoñ kdmfksdmfñ kañfkaokaoñs kaoñsk fñosdkfoñdks oñfkds oñ fkdsoñkfño dskf oñdskfoñksdoñ ."
     },
     {
         tableroId : 'TABLERO_2',

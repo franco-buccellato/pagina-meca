@@ -1,7 +1,7 @@
 import './ServicioMas.css';
-import servicioTablero from '../../imagenes/tableros-servicios.png';
-import serviciomontaje from '../../imagenes/montaje-servicios.png';
-import servicioMas from '../../imagenes/mas-servicios.png';
+import servicioTablero from '../../imagenes/tableros-servicios.webp';
+import serviciomontaje from '../../imagenes/montaje-servicios.webp';
+import servicioMas from '../../imagenes/mas-servicios.webp';
 import {getTextServicios} from '../repositorioServicios.js';
 
 /*SVG Mas*/

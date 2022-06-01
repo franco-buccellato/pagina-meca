@@ -1,14 +1,14 @@
 import './CarrouselClientes.css';
-import cliente1 from '../../imagenes/cliente1-1.png'
-import cliente2 from '../../imagenes/cliente2-1.png'
-import cliente3 from '../../imagenes/cliente3-1.png'
-import cliente4 from '../../imagenes/cliente4-1.png'
-import cliente5 from '../../imagenes/cliente5-1.png'
-import cliente6 from '../../imagenes/cliente6-1.png'
-import cliente7 from '../../imagenes/cliente7-1.png'
-import cliente8 from '../../imagenes/cliente8-1.png'
-import cliente9 from '../../imagenes/cliente9-1.png'
-import cliente10 from '../../imagenes/cliente10-1.png'
+import cliente1 from '../../imagenes/cliente1-1.webp'
+import cliente2 from '../../imagenes/cliente2-1.webp'
+import cliente3 from '../../imagenes/cliente3-1.webp'
+import cliente4 from '../../imagenes/cliente4-1.webp'
+import cliente5 from '../../imagenes/cliente5-1.webp'
+import cliente6 from '../../imagenes/cliente6-1.webp'
+import cliente7 from '../../imagenes/cliente7-1.webp'
+import cliente8 from '../../imagenes/cliente8-1.webp'
+import cliente9 from '../../imagenes/cliente9-1.webp'
+import cliente10 from '../../imagenes/cliente10-1.webp'
 
 
 function CarrouselClientes() {

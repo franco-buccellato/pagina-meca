@@ -1,5 +1,5 @@
 import './SectionEmpresa.css'; 
-import IconoEmpresa from '../../imagenes/icono-empresa.png'
+import IconoEmpresa from '../../imagenes/icono-empresa.webp'
 import {getTextEmpresa} from '../repositorioEmpresa';
 
 function SectionEmpresa() {

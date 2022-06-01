@@ -1,7 +1,7 @@
 import './SectionClientes.css'; 
-import iconoClientes from '../../imagenes/escudo-clientes.png'
+import iconoClientes from '../../imagenes/escudo-clientes.webp'
 import CarrouselClientes from '../CarrouselClientes/CarrouselClientes';
-import iconoExperiencias from '../../imagenes/experiencias-icono.png'
+import iconoExperiencias from '../../imagenes/experiencias-icono.webp'
 import { getTextosClientes } from '../repositorioClientes';
 
 function SectionClientes() {

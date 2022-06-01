@@ -1,9 +1,9 @@
 import './SectionNosotros.css'; 
-import FotoDuenios from '../../imagenes/eugenio-dario.png';
-import FotoStaff from '../../imagenes/STAFF4.jpg';
-import LogoStaff from '../../imagenes/icono-staff.png';
-import LogoObjetivo from '../../imagenes/icono-objetivo.png';
-import LogoProgreso from '../../imagenes/icono-progreso.png';
+import FotoDuenios from '../../imagenes/eugenio-dario.webp';
+import FotoStaff from '../../imagenes/STAFF4.webp';
+import LogoStaff from '../../imagenes/icono-staff.webp';
+import LogoObjetivo from '../../imagenes/icono-objetivo.webp';
+import LogoProgreso from '../../imagenes/icono-progreso.webp';
 import {getTextNosotros} from '../repositorioNosotros';
 
 function SectionNosotros() {
