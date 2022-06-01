@@ -14,7 +14,6 @@ const SectionNovedades = () => {
 
     useEffect(
         () => {
-            console.log('Se modifico el count.')
         },
         [indiceVideo]
     )

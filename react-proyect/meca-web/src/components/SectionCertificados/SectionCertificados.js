@@ -18,14 +18,12 @@ function SectionCertificados() {
 
     useEffect(
         () => {
-            console.log('Se corrio el certificado de Sea.')
         },
         [indiceSea]
     )
 
     useEffect(
         () => {
-            console.log('Se corrio el certificado de Sea.')
         },
         [indiceIram]
     )

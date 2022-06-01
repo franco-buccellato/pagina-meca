@@ -17,7 +17,7 @@ const ProductoDetailContainer = () => {
                     setProducto(producto)
                 }
             )
-        }, [producto]
+        }, [productId]
     )
 
     return (

@@ -1,5 +1,5 @@
 import './App.css';
-import NavBar from './components/NavBar/NavBar';
+import NavBarGestor from './components/NavBar/NavBarGestor';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import LeftBar from './components/LeftBar/LeftBar';
@@ -10,7 +10,7 @@ import LandingPage from './components/LandingPage/LandingPage';
 function App() {
   return (
     <BrowserRouter>
-      <NavBar/>
+      <NavBarGestor/>
       <LeftBar/>
       <Routes>
         <Route exact path = '/' element = {<LandingPage/>}/>
