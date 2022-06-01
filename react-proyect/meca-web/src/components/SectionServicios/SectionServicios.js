@@ -1,7 +1,7 @@
 import './SectionServicios.css';
-import servicioTablero from '../../imagenes/tableros-servicios.webp';
-import serviciomontaje from '../../imagenes/montaje-servicios.webp';
-import servicioMas from '../../imagenes/mas-servicios.webp';
+import servicioTablero from '../../imagenes/tableros-servicios-small-min.webp';
+import serviciomontaje from '../../imagenes/montaje-servicios-small-min.webp';
+import servicioMas from '../../imagenes/mas-servicios-small-min.webp';
 import {useState} from 'react';
 import ServicioTablero from '../ServicioTablero/ServicioTablero';
 import ServicioMontaje from '../ServicioMontaje/ServicioMontaje';
@@ -27,8 +27,6 @@ function SectionServicios() {
         setServicio();
     }
 
-    
-
     switch(servicio) {
         case 'tableros':
             return (
@@ -48,15 +46,15 @@ function SectionServicios() {
                     <h3 className='section-servicos-tittle'>Nuestros Servicios</h3>
                     <div className="container-section-servicios-base">
                         <div className="servicios" onClick={() => setServicioTablero()}>
-                            <img className='servicio-base' alt='Logo Servicio Tablero' src={servicioTablero}></img>
+                            <img className='servicio-base' alt='Logo Servicio Tablero' src={servicioTablero} width={240} height={240}></img>
                             <h4 className='servicio-text'>{textosServicios.servicio1}</h4>
                         </div>
                         <div className="servicios" onClick={() => setServicioMontaje()}>
-                            <img className='servicio-base' alt='Logo Servicio Montaje' src={serviciomontaje}></img>
+                            <img className='servicio-base' alt='Logo Servicio Montaje' src={serviciomontaje} width={240} height={240}></img>
                             <h4 className='servicio-text'>{textosServicios.servicio2}</h4>
                         </div>
                         <div className="servicios" onClick={() => setServicioMas()}>
-                            <img className='servicio-base' alt='Logo Servicio Mas' src={servicioMas}></img>
+                            <img className='servicio-base' alt='Logo Servicio Mas' src={servicioMas} width={240} height={240}></img>
                             <h4 className='servicio-text'>{textosServicios.servicio3}</h4>
                         </div>
                     </div>

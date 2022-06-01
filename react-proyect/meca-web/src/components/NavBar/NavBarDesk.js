@@ -1,6 +1,6 @@
 import './NavBarDesk.css';
 import {Link} from 'react-router-dom';
-import logoMecaIsologo from '../../imagenes/meca-logo-isologo.webp';
+import logoMecaIsologo from '../../imagenes/meca-logo-isologo-small-min.webp';
 import logoMecaTexto from '../../imagenes/logo-meca-text.webp';
 
 function NavBarDesk({estaEnSupPage}) {
