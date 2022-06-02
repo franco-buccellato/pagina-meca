@@ -1,5 +1,5 @@
 import './Certificado.css'
-const certificado = require.context('../../imagenes/', true);
+const certificado = require.context('../../imagenes/Certificaciones/', true);
 
 
 const Certificado = ({certificadoId, linkImagen, titulo, detalle}) => {

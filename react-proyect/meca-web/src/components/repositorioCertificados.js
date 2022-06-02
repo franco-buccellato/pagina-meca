@@ -24,19 +24,19 @@ const certificadoIram =
 [   
     {
         certificadoId : 0,
-        linkImagen: 'lvpanel-schneider-certificaciones.webp',
+        linkImagen: 'image 3certificado-iram.svg',
         titulo: 'ENTREGA CERTIFICADO',
         detalle: 'Tenemos certificado nuestro Sistema de Gestión de Calidad bajo los estándares de la norma de ISO 9001:2015, en el que definimos nuestro alcance en: “Diseño, fabricación y puesta en marcha de tableros eléctricos de media y baja tensión para la generación y distribución de energía eléctrica.”'
     },
     {
         certificadoId : 1,
-        linkImagen: 'lvpanel-schneider-certificaciones.webp',
+        linkImagen: 'certificado-iso-9001.svg',
         titulo: 'CERTIFICADO IRAM-ISO 9001:2018',
         detalle: 'Seguimos renovando la Normas ISO 9001:2018, cuyo alcance es: “Diseño, fabricación y puesta en marcha de tableros eléctricos de media y baja tensión para la generación y distribución de energía eléctrica.”'
     },
     {
         certificadoId : 2,
-        linkImagen: 'lvpanel-schneider-certificaciones.webp',
+        linkImagen: 'certificado-iso-45001.svg',
         titulo: 'CERTIFICADO IRAM-ISO 45001:2018',
         detalle: 'Migramos de Normas OSHAS 18001:2017 a Normas ISO 45001:2018, cuyo alcance es: “Diseño, fabricación y puesta en marcha de tableros eléctricos de media y baja tensión para la generación y distribución de energía eléctrica.”'
     }

@@ -1,11 +1,11 @@
 import './SectionCertificados.css'; 
-import IconoCertificado from '../../imagenes/icono-certificados.webp'
+import IconoCertificado from '../../imagenes/Certificaciones/icono-certificados.webp'
 import Certificado from '../Certificado/Certificado';
 import {getCertificadosSchneider, getCertificadosIram} from '../repositorioCertificados.js';
 import arrowBack from '../../imagenes/icono-arrow-back.webp';
 import arrowNext from '../../imagenes/icono-arrow-next.webp';
-import logoCertificacionSchneider from '../../imagenes/titulo-schneider-certificaciones.webp';
-import logoCertificacionIram from '../../imagenes/titulo-iram-certificaciones.webp';
+import logoCertificacionSchneider from '../../imagenes/Certificaciones/titulo-schneider-certificaciones.webp';
+import logoCertificacionIram from '../../imagenes/Certificaciones/titulo-iram-certificaciones.webp';
 import { useEffect, useState } from 'react';
 
 function SectionCertificados() {
