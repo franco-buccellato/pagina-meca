@@ -1,13 +1,21 @@
 import './Certificado.css'
-import certificadoTest from '../../imagenes/lvpanel-schneider-certificaciones.webp';
+const certificado = require.context('../../imagenes/', true);
+
 
 const Certificado = ({certificadoId, linkImagen, titulo, detalle}) => {
+
+    console.log({linkImagen});
 
     return (
         <div className="container-componente-certificado">
             <div className="componente-certificado">
                 <div className='certificado-foto'>
-                    <img alt={certificadoId} src={certificadoTest}></img>
+                    <img 
+                        alt={certificadoId}
+                        src = {certificado(`./` + linkImagen)}
+                        /* width={200} */
+                        /* height={300} */
+                    ></img>
                 </div>
                 <div className='certificado-titulo'>
                     <span><b>{titulo}</b></span>
