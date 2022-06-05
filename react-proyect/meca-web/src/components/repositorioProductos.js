@@ -247,7 +247,7 @@ const listProductos = [
         obra: 'AMPLIACIÓN ARTIGAS I',
         descripcion : 'Montaje e instalación de celdas de MT, nuevo TGBT, tableros seccionales, grupos electrógenos, canalizaciones aéreas y bajo piso técnico y puesta en marcha del sistema.',
         link_imagenes: [
-            'TABLERO_19/1.jpg',
+            'TABLERO_19/1.jpeg',
             'TABLERO_19/2.jpg',
             'TABLERO_19/3.jpg',
             'TABLERO_19/4.jpg',

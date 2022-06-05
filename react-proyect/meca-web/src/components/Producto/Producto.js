@@ -1,17 +1,17 @@
 import './Producto.css';
 import { Link } from 'react-router-dom';
-/* const imagenProducto = require.context('../../imagenes/Productos/', true); */
+const imagenProducto = require.context('../../imagenes/Productos/', true);
 
-const Producto = ({tableroId, titulo, cliente, obra, descripcion, link_imagenes, index}) => {
+const Producto = ({tableroId, titulo, link_imagenes, index}) => {
 
     return (
-        <div className={'container-producto'+index}>
+        <div className={'container-producto'+index} id='container-producto'>
             <Link to ={`/productDetail/${tableroId}`}>
                 <div className="container-producto-background-1">
-{/*                     <img
+                    <img className='container-producto-imagen'
                         alt={tableroId}
                         src = {imagenProducto(`./` + link_imagenes[0])}
-                    ></img> */}
+                    ></img>
                     <div className="container-producto-imagen-degrade"></div>
                     <div className="container-producto-background-2">
                         <h5>{titulo}</h5>

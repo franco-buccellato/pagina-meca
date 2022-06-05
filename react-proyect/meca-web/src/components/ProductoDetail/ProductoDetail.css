@@ -12,10 +12,17 @@
     flex-direction: column;
     align-items: center;
     justify-items: flex-start;
-    width: 70%;
+    width: 50%;
     background: #F9F9FA;
     box-shadow: 15.2537px 17.796px 30.5075px 7.62687px rgba(0, 0, 0, 0.12);
     border-radius: 20px;
+}
+
+.producto-carrousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .producto-imagen {
@@ -28,6 +35,8 @@
 
 .producto-imagen img {
     border-radius: 20px;
+    max-width: 450px;
+    max-height: 450px;
 }
 
 .producto-titulo {
@@ -36,7 +45,7 @@
     justify-content: center;
     align-items: center;
     width: 90%;
-    max-width: 650px;
+    max-width: 550px;
     background: #E8E8E8;
     box-shadow: 0px -26.5672px 33.209px -4.42786px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
@@ -52,9 +61,10 @@
 
 .producto-descripcion {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    width: 90%;
+    align-items: center;
+    width: 80%;
     padding: 50px 0;
 }
 
@@ -67,7 +77,8 @@
     height: 60px;
     background: #FFE81E;
     border-radius: 36px;
-    margin-left: -5%;
+    margin-left: -3%;
+    margin-bottom: -50px;
 }
 
 .arrow-back-producto-detail {
@@ -75,8 +86,9 @@
     height: 60px;
     background: #FFE81E;
     border-radius: 36px;
-    margin-right: -5%;
+    margin-right: -3%;
     z-index: 100;
+    margin-bottom: -50px;
 }
 
 .arrow-back-icono-producto-detail, .arrow-next-icono-producto-detail {
@@ -90,17 +102,23 @@
 /*RESPONSIVE*/
 @media only screen and (max-width: 900px) {
     .producto-imagen img {
-        width: 150%;
+        max-width: 250px;
+        max-height: 250px;
     }
 }
 @media only screen and (max-width: 600px) {
     .producto-imagen img {
-        width: 80%;
+        max-width: 200px;
+        max-height: 200px;
     }
     .producto-titulo h5 {
         font-size: 15px;
     }
     .container-producto {
         margin-top: -100px;
+    }
+    .arrow-next-producto-detail, .arrow-back-producto-detail {
+        width: 40px;
+        height: 40px;
     }
 }
