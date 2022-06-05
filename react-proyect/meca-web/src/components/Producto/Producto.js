@@ -1,5 +1,6 @@
 import './Producto.css';
 import { Link } from 'react-router-dom';
+const imagenProducto = require.context('../../imagenes/Productos/', true);
 
 const Producto = ({tableroId, link_imagenes, titulo, index}) => {
 
@@ -7,7 +8,11 @@ const Producto = ({tableroId, link_imagenes, titulo, index}) => {
         <div className={'container-producto'+index}>
             <Link to ={`/productDetail/${tableroId}`}>
                 <div className="container-producto-background-1">
-                    <img className='container-producto-imagen' alt='test' src={link_imagenes[0]}></img>
+                    {/* <img className='container-producto-imagen' alt='test' src={link_imagenes[0]}></img> */}
+                    <img
+                            alt={tableroId}
+                            src = {imagenProducto(`./` + link_imagenes[0])}
+                        ></img>
                     <div className="container-producto-imagen-degrade"></div>
                     <div className="container-producto-background-2">
                         <h5>{titulo}</h5>
