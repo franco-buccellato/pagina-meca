@@ -158,6 +158,11 @@ const listProductos = [
         obra: 'Estación Transformadora Alfa Sur',
         descripcion : 'Subestación transformadora compacta modelo Biosco.',
         link_imagenes: [
+            'TABLERO_12/1.jpg',
+            'TABLERO_12/2.jpg',
+            'TABLERO_12/3.jpg',
+            'TABLERO_12/4.jpg',
+            'TABLERO_12/5.jpg'
         ]
     },
     {
@@ -167,6 +172,15 @@ const listProductos = [
         obra: 'AMPLIACIÓN ARTIGAS I',
         descripcion : 'Tablero de potencia para transformadores 3150kVA.',
         link_imagenes: [
+            'TABLERO_13/1.jpg',
+            'TABLERO_13/2.jpg',
+            'TABLERO_13/3.jpg',
+            'TABLERO_13/4.jpg',
+            'TABLERO_13/5.jpg',
+            'TABLERO_13/6.jpg',
+            'TABLERO_13/7.jpg',
+            'TABLERO_13/8.jpg',
+            'TABLERO_13/9.jpg'
         ]
     },
     {
@@ -176,6 +190,12 @@ const listProductos = [
         obra: 'AMPLIACIÓN ARTIGAS I',
         descripcion : 'Ducto de barras para interconexión entre TGBT y transformador de potencia de 3150Kva.',
         link_imagenes: [
+            'TABLERO_14/1.jpg',
+            'TABLERO_14/2.jpg',
+            'TABLERO_14/3.jpg',
+            'TABLERO_14/4.jpg',
+            'TABLERO_14/5.jpg',
+            'TABLERO_14/6.jpg'
         ]
     },
     {
@@ -221,6 +241,26 @@ const listProductos = [
         obra: 'AMPLIACIÓN ARTIGAS I',
         descripcion : 'Montaje e instalación de celdas de MT, nuevo TGBT, tableros seccionales, grupos electrógenos, canalizaciones aéreas y bajo piso técnico y puesta en marcha del sistema.',
         link_imagenes: [
+            'TABLERO_19/1.jpg',
+            'TABLERO_19/2.jpg',
+            'TABLERO_19/3.jpg',
+            'TABLERO_19/4.jpg',
+            'TABLERO_19/5.jpg',
+            'TABLERO_19/6.jpg',
+            'TABLERO_19/7.jpg',
+            'TABLERO_19/8.jpg',
+            'TABLERO_19/9.jpg',
+            'TABLERO_19/10.jpg',
+            'TABLERO_19/11.jpg',
+            'TABLERO_19/12.jpg',
+            'TABLERO_19/13.jpg',
+            'TABLERO_19/14.jpg',
+            'TABLERO_19/15.jpg',
+            'TABLERO_19/16.jpg',
+            'TABLERO_19/17.jpg',
+            'TABLERO_19/18.jpg',
+            'TABLERO_19/19.jpg',
+            'TABLERO_19/20.jpg'
         ]
     }
 ]
