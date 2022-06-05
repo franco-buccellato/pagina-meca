@@ -107,6 +107,15 @@ const listProductos = [
         obra: 'HEAD END ARTIGAS',
         descripcion : 'Rack outdoor de doble cuerpo con aire acondicionado.',
         link_imagenes: [
+            'TABLERO_8/1.jpg',
+            'TABLERO_8/2.jpg',
+            'TABLERO_8/3.jpg',
+            'TABLERO_8/4.jpg',
+            'TABLERO_8/5.jpg',
+            'TABLERO_8/6.jpg',
+            'TABLERO_8/7.jpg',
+            'TABLERO_8/8.jpg',
+            'TABLERO_8/9.jpg'
         ]
     },
     {
@@ -116,9 +125,13 @@ const listProductos = [
         obra: 'HOGAR RESIDENCIAL',
         descripcion : 'Tablero con módulos domóticos para control de iluminación y fuerza motriz.',
         link_imagenes: [
+            'TABLERO_9/1.jpg',
+            'TABLERO_9/2.jpg',
+            'TABLERO_9/3.jpg',
+            'TABLERO_9/4.jpg'
         ]
     },
-    {
+/*     {
         tableroId : 'TABLERO_10',
         titulo : 'TABLERO PARA ARRANQUE DE MOTORES',
         cliente: 'TOTAL AUSTRAL',
@@ -126,7 +139,7 @@ const listProductos = [
         descripcion : 'Tablero para arranque y control de motores',
         link_imagenes: [
         ]
-    },
+    }, */
     {
         tableroId : 'TABLERO_11',
         titulo : 'TABLERO PARA FILTRADO DE ARMÓNICOS',
@@ -134,6 +147,8 @@ const listProductos = [
         obra: 'PLATAFORMAS OFFSHORE – RÍO GALLEGOS',
         descripcion : 'Tablero para filtrado de armónicos y compensación de energía reactiva.',
         link_imagenes: [
+            'TABLERO_11/1.jpg',
+            'TABLERO_11/2.jpg'
         ]
     },
     {
