@@ -1,6 +1,6 @@
 import './Producto.css';
 import { Link } from 'react-router-dom';
-const imagenProducto = require.context('../../imagenes/Productos/', true);
+/* const imagenProducto = require.context('../../imagenes/Productos/', true); */
 
 const Producto = ({tableroId, titulo, cliente, obra, descripcion, link_imagenes, index}) => {
 

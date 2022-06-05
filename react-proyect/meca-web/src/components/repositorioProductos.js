@@ -34,6 +34,12 @@ const listProductos = [
         obra: 'Plataformas Offshore – Río Cullen – Tierra del Fuego',
         descripcion : 'Tableros de generación para cuatro (4) plataformas offshore.',
         link_imagenes: [
+            'TABLERO_3/1.jpg',
+            'TABLERO_3/2.jpg',
+            'TABLERO_3/3.jpg',
+            'TABLERO_3/4.jpg',
+            'TABLERO_3/5.jpg',
+            'TABLERO_4/5.jpg',
         ]
     },
     {
@@ -43,6 +49,12 @@ const listProductos = [
         obra: '',
         descripcion : 'Tablero para monitoreo de salidas individuales.',
         link_imagenes: [
+            'TABLERO_4/1.jpg',
+            'TABLERO_4/2.jpg',
+            'TABLERO_4/3.jpg',
+            'TABLERO_4/4.jpg',
+            'TABLERO_4/5.jpg',
+            'TABLERO_4/6.jpg'
         ]
     },
     {
@@ -52,6 +64,12 @@ const listProductos = [
         obra: 'YPF - NEUQUÉN',
         descripcion : 'Tableros tipo petrolero equipados con sendos Variadores de Velocidad (VDF) para arranque de motores eléctricos de impulsión de bombas de 300 HP.',
         link_imagenes: [
+            'TABLERO_5/1.jpg',
+            'TABLERO_5/2.jpg',
+            'TABLERO_5/3.jpg',
+            'TABLERO_5/4.jpg',
+            'TABLERO_5/5.jpg',
+            'TABLERO_5/6.jpg'
         ]
     },
     {
@@ -61,6 +79,10 @@ const listProductos = [
         obra: 'PLANTA ITAÚ - BOLIVIA',
         descripcion : 'Tablero de Control, Sincronismo y Potencia para tres (3) grupos electrógenos CAT de 450 kVA.',
         link_imagenes: [
+            'TABLERO_6/1.jpg',
+            'TABLERO_6/2.jpg',
+            'TABLERO_6/3.jpg',
+            'TABLERO_6/4.jpg'
         ]
     },
     {
@@ -70,6 +92,12 @@ const listProductos = [
         obra: 'HEAD END ARTIGAS',
         descripcion : 'Tablero de Control, Sincronismo y Potencia para tres (3) grupos electrógenos CAT de 450 kVA.',
         link_imagenes: [
+            'TABLERO_7/1.jpg',
+            'TABLERO_7/2.jpg',
+            'TABLERO_7/3.jpg',
+            'TABLERO_7/4.jpg',
+            'TABLERO_7/5.jpg',
+            'TABLERO_7/6.jpg'
         ]
     },
     {
