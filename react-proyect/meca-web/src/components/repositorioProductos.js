@@ -198,7 +198,7 @@ const listProductos = [
             'TABLERO_14/6.jpg'
         ]
     },
-    {
+/*     {
         tableroId : 'TABLERO_15',
         titulo : 'MANTENIMIENTO DE SET',
         cliente: 'ASOCIACIÓN ESCUELAS LINCOLN',
@@ -215,7 +215,7 @@ const listProductos = [
         descripcion : 'Medición y mantenimiento de PAT en Yacimientos y Plataformas Offshore.',
         link_imagenes: [
         ]
-    },
+    }, */
     {
         tableroId : 'TABLERO_17',
         titulo : 'MONTAJES DE BANDEAS DE FIBRA ÓPTICA',
@@ -223,6 +223,8 @@ const listProductos = [
         obra: 'SALA GOOGLE - ARTIGAS',
         descripcion : 'Montaje e instalación de bandejas para cable de fibra óptica.',
         link_imagenes: [
+            'TABLERO_17/1.jpg',
+            'TABLERO_17/2.jpg'
         ]
     },
     {
@@ -232,6 +234,10 @@ const listProductos = [
         obra: 'SALA AMAZON - ARTIGAS',
         descripcion : 'Montaje y tendido de conductores en bandejas portcables.',
         link_imagenes: [
+            'TABLERO_18/1.jpg',
+            'TABLERO_18/2.jpg',
+            'TABLERO_18/3.jpg',
+            'TABLERO_18/4.jpg'
         ]
     },
     {
