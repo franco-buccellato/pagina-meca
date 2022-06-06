@@ -116,6 +116,11 @@
     }
     .productos-ver-mas {
         margin-top: 40px;
+        box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15);
+    }
+
+    .productos-ver-mas:hover {
+        box-shadow: 3px 4px 7px 5px rgba(0, 0, 0, 0.15);
     }
 
     .arrow-next-product {
@@ -125,6 +130,7 @@
         border-radius: 36px;
         margin-left: -5%;
         z-index: 10000;
+        box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15);
     }
     
     .arrow-back-product {
@@ -134,6 +140,11 @@
         border-radius: 36px;
         margin-right: -5%;
         z-index: 10000;
+        box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15);
+    }
+
+    .arrow-back-product:hover, .arrow-next-product:hover {
+        box-shadow: 3px 4px 7px 5px rgba(0, 0, 0, 0.15);
     }
     
     .arrow-back-icono-product, .arrow-next-icono-product {

@@ -153,9 +153,9 @@ textarea {
 }
 
 input[type="submit"] {
-    background: #FFE925 !important;
-    box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15) !important;
-    border-radius: 5px !important;
+    background: #FFE925;
+    box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
@@ -168,7 +168,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    box-shadow: 3px 4px 7px 5px rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 3px 4px 7px 5px rgba(0, 0, 0, 0.15);
 }
 
 form label {
@@ -189,7 +189,7 @@ form label {
 }
 
 form label:hover {
-    box-shadow: 3px 4px 7px 5px rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 3px 4px 7px 5px rgba(0, 0, 0, 0.15);
 }
 
 /* label underline focus color */
@@ -197,8 +197,8 @@ form label:hover {
 .input-field input[type=tel]:focus,
 .input-field input[type=email]:focus,
 .input-field textarea:focus {
-    border-bottom: 1px solid #FFE925 !important;
-    box-shadow: 0 1px 0 0 #FFE925 !important;
+    border-bottom: 1px solid #FFE925;
+    box-shadow: 0 1px 0 0 #FFE925;
 }
 
 @media only screen and (max-width: 1000px) {

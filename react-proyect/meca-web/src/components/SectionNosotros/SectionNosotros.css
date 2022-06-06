@@ -195,6 +195,11 @@
     background: #FFE925;
     box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
+    box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15);
+}
+
+.buttom-conocenos:hover {
+    box-shadow: 3px 4px 7px 5px rgba(0, 0, 0, 0.15);
 }
 
 @media only screen and (max-width: 1000px) {

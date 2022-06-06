@@ -3,6 +3,7 @@ import InputBox from '../InputBox/InputBox'
 import TextArea from '../TextArea/TextArea'
 
 const Form = () => {
+
     return (
         <form>
             <div className="form-row" >
