@@ -6,6 +6,7 @@ import SectionEmpresa from '../SectionEmpresa/SectionEmpresa';
 import SectionCertificados from '../SectionCertificados/SectionCertificados';
 import SectionClientes from '../SectionClientes/SectionClientes';
 import SectionNovedades from '../SectionNovedades/SectionNovedades';
+import Footer from '../Footer/Footer';
 
 
 const LandingPage = () => {
@@ -19,6 +20,7 @@ const LandingPage = () => {
             <div><SectionCertificados/></div>
             <div><SectionClientes/></div>
             <div><SectionNovedades/></div>
+            <div><Footer/></div>
         </div>
     );
 }

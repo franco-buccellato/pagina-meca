@@ -38,10 +38,13 @@ const Form = () => {
                 />
             </div>
             <div className="form-row">
-                <InputBox
-                    caption="Enviar"
-                    type="submit"
-                />
+                <a href=
+                'mailto:info@mecaelectromecanica.com.ar?Subject=Quiero%20trabajar%20con%20ustedes'>
+                    <InputBox
+                        caption="Enviar"
+                        type="enviar"
+                    />
+                </a>
             </div>
         </form>
     )

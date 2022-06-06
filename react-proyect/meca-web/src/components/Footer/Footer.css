@@ -167,7 +167,31 @@ input[type="submit"] {
     width: 60%;
 }
 
+.form-row a {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="enviar"] {
+    background: #FFE925;
+    box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #181818;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    width: 60%;
+    text-align: center;
+}
+
 input[type="submit"]:hover {
+    box-shadow: 3px 4px 7px 5px rgba(0, 0, 0, 0.15);
+}
+input[type="enviar"]:hover {
     box-shadow: 3px 4px 7px 5px rgba(0, 0, 0, 0.15);
 }
 

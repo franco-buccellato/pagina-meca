@@ -4,21 +4,11 @@ const idVideos =
             idVideo : 'Y1OwCYZMUpk',
         },
         {
-            idVideo : '8YA825ZNAIE',
+            idVideo : '4Xd7IMZbZ9A',
         },
         {
-            idVideo : 'D91mY5iobzk',
-        },
-        {
-            idVideo : 'D91mY5iobzk',
-        },
-        {
-            idVideo : 'D91mY5iobzk',
-        },
-        {
-            idVideo : 'D91mY5iobzk',
+            idVideo : 'n0wKSRsRubA',
         }
-        
     ]
 
 export const getIdVideos = () => {

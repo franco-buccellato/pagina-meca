@@ -5,8 +5,6 @@ import logoMecaTexto from '../../imagenes/logo-meca-text.webp';
 
 function NavBarDesk({estaEnSupPage}) {
 
-    console.log(estaEnSupPage);
-
     const HideNavBar = () => {
         window.onscroll = function() {
             var currentScrollPos = window.pageYOffset;
@@ -29,15 +27,64 @@ function NavBarDesk({estaEnSupPage}) {
         }
     }
     HideNavBar();
+
+    if(estaEnSupPage !== '/') {
+        return(
+            <div className="navbar" id='top-landig-page'>
+                <div className="background"></div>
+                <div className="container-navigation">
+                <nav className="navigation" id='navBar'>
+                        <div className='container-logo-marca' id='logo-nav-bar'>
+                            <Link to = {'/'}>
+                                <img id='logo-navBar' className='logo-pagina' alt='Logo' src={logoMecaIsologo}></img>
+                            </Link>
+                        </div>
+                        <ul className='navbar-style'>
+                            <li className="list" id='title-productos' >
+                                <Link to = {'/'}>
+                                    <h2 className='list-text'>Productos</h2>
+                                </Link>
+                            </li>
+                            <li className="list" id='title-clientes' >
+                                <Link to = {'/'}>
+                                    <h2 className='list-text'>Clientes</h2>
+                                </Link>
+                            </li>
+                            <li className="list" id='title-nosotros' >
+                                <Link to = {'/'}>
+                                    <h2 className='list-text'>Nosotros</h2>
+                                </Link>
+                            </li>
+                            <li className="list" id='title-empresa' >
+                                <Link to = {'/'}>
+                                    <h2 className='list-text'>Empresa</h2>
+                                </Link>
+                            </li>
+                            <li className="list" id='title-novedades' >
+                                <Link to = {'/'}>
+                                    <h2 className='list-text'>Novedades</h2>
+                                </Link>
+                            </li>
+                            <li className="list-trabaja-con-nosotros" id='title-trabaja-con-nosotros' >
+                                <Link to = {'/'}>
+                                    <h2 className='list-text' id='button-trabaja'>Trabajá con Nosotros</h2>
+                                </Link>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        )
+    }
     return (
         <div className="navbar" id='top-landig-page'>
             <div className="background"></div>
             <div className="container-navigation">
             <nav className="navigation" id='navBar'>
                     <div className='container-logo-marca' id='logo-nav-bar'>
-                        <Link to = {'/'}>
+                        <a href='#top-landig-page'>
                             <img id='logo-navBar' className='logo-pagina' alt='Logo' src={logoMecaIsologo}></img>
-                        </Link>
+                        </a>
                     </div>
                     <ul className='navbar-style'>
                         <li className="list" id='title-productos' >
