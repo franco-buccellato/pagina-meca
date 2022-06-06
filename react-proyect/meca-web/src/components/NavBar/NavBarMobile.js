@@ -38,46 +38,35 @@ function NavBarMobile() {
                     </div>
                     <ul className='navbar-list-responsive' id='navbar-list-responsive'>
                         <li className="list-responsive" id='title-productos' >
-                            {/* <Link to = {'/productos'}> */}
                             <a href='#section-servicios'>
                                 <h2 className='list-text-responsive'><ion-icon name="hammer-outline"></ion-icon>Productos</h2>
                             </a>
-                            {/* </Link> */}
                         </li>
                         <li className="list-responsive" id='title-clientes' >
-                            {/* <Link to = {'/'}> */}
                             <a href='#section-clientes'>
                                 <h2 className='list-text-responsive'><ion-icon name="file-tray-full-outline"></ion-icon>Clientes</h2>
                             </a>
-                            {/* </Link> */}
                         </li>
                         <li className="list-responsive" id='title-nosotros' >
-                            {/* <Link to = {'/'}> */}
                             <a href='#section-nosotros-id'>
                                 <h2 className='list-text-responsive'><ion-icon name="people-outline"></ion-icon>Nosotros</h2>
                             </a>
-                            {/* </Link> */}
                         </li>
                         <li className="list-responsive" id='title-empresa' >
-                            {/* <Link to = {'/'}> */}
+                            
                             <a href='#section-empresa'>
                             <h2 className='list-text-responsive'><ion-icon name="business-outline"></ion-icon>Empresa</h2>
                         </a>
-                            {/* </Link> */}
                         </li>
                         <li className="list-responsive" id='title-novedades' >
-                            {/* <Link to = {'/'}> */}
                             <a href='#section-novedades'>
                                 <h2 className='list-text-responsive'><ion-icon name="megaphone-outline"></ion-icon>Novedades</h2>
                             </a>
-                            {/* </Link> */}
                         </li>
                         <li className="list-responsive" id='title-trabaja-con-nosotros' >
-                            {/* <Link to = {'/'}> */}
                             <a href='#section-contactanos'>
                                 <h2 className='list-text-responsive'><ion-icon name="git-pull-request-outline"></ion-icon>Trabajá con Nosotros</h2>
                             </a>
-                            {/* </Link> */}
                         </li>
                     </ul>
                 </nav>

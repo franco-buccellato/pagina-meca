@@ -51,6 +51,7 @@ const SectionNovedades = () => {
                     </div>
                 </div>
             </div>
+            <div id='section-conocenos'></div>
         </div>
     );
 }

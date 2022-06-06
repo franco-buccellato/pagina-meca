@@ -66,7 +66,7 @@ function NavBarDesk({estaEnSupPage}) {
                             </a>
                         </li>
                         <li className="list-trabaja-con-nosotros" id='title-trabaja-con-nosotros' >
-                            <a href='#section-contactanos'>
+                            <a href='#section-conocenos'>
                                 <h2 className='list-text' id='button-trabaja'>Trabajá con Nosotros</h2>
                             </a>
                         </li>
