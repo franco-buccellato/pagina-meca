@@ -6,15 +6,15 @@ const Maps = () => {
         <section className='maps container'>
             <div className="container-row">
                 <div className="container-colum-iframe">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13136.590722976262!2d-58.565810549999995!3d-34.60042695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1654219465385!5m2!1ses!2sar"
-                        /* width="600" */
-                        height="450"
-                        style={{ border: 0 }}
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                    ></iframe>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1643.587906000497!2d-58.529254866309486!3d-34.5237734271554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0c13b8dfa99%3A0xae63609677c33b97!2sGral.%20Belgrano%203257%2C%20B1605CGS%20Munro%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1654480554269!5m2!1ses-419!2sar"
+                    /* width="600" */
+                    height="450"
+                    style={{ border: 0 }}
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
                 </div>
                 <div className="container-colum">
                     <div className="row">
