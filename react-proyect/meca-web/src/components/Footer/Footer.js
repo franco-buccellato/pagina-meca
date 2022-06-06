@@ -8,7 +8,7 @@ import Logo from './Logo/Logo'
 const Footer = () => {
     return (
         <footer>
-            <div className="container-footer">
+            <div className="container-footer" id='section-contactanos'>
                 <div className="container-row">
                     <div className="container-title">
                         <Title/>

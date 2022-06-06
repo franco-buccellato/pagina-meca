@@ -4,8 +4,6 @@ const certificado = require.context('../../imagenes/Certificaciones/', true);
 
 const Certificado = ({certificadoId, linkImagen, titulo, detalle}) => {
 
-    console.log({linkImagen});
-
     return (
         <div className="container-componente-certificado">
             <div className="componente-certificado">

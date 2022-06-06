@@ -5,7 +5,7 @@ import TextArea from '../TextArea/TextArea'
 const Form = () => {
     return (
         <form>
-            <div className="form-row">
+            <div className="form-row" >
                 <InputBox
                     caption="* Nombre"
                     type="text"

@@ -11,16 +11,15 @@ const Maps = () => {
                     /* width="600" */
                     height="450"
                     style={{ border: 0 }}
-                    allowfullscreen=""
                     loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
+                    /* referrerpolicy="no-referrer-when-downgrade" */
                 ></iframe>
                 </div>
                 <div className="container-colum">
                     <div className="row">
                         <div className="col s12 boxInfo">
                             <div>
-                                <i class="material-icons">location_on</i>
+                                <i className="material-icons">location_on</i>
                             </div>
                             <div>
                                 <p><b>Dirección de Administración:</b></p>

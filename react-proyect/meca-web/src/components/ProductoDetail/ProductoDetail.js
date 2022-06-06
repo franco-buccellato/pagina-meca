@@ -2,6 +2,7 @@ import './ProductoDetail.css';
 import arrowBack from '../../imagenes/icono-arrow-back.webp';
 import arrowNext from '../../imagenes/icono-arrow-next.webp';
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 const imagenProducto = require.context('../../imagenes/Productos/', true);
 
 const ProductoDetail = ({tableroId, titulo, cliente, obra, descripcion, link_imagenes}) => {
@@ -24,6 +25,14 @@ const ProductoDetail = ({tableroId, titulo, cliente, obra, descripcion, link_ima
 
     return (
         <div className="container-producto">
+            <div className="container-atras">
+                <Link to ={`/productos`}>
+                    <div className="atras-boton">
+                        <img alt='Arrow Back' src={arrowBack}></img>
+                        <span><b>Atrás</b></span>
+                    </div>
+                </Link>
+            </div>
             <div className="producto-detail">
                 <div className="producto-carrousel">
                     <div className='arrow-back-producto-detail'>
