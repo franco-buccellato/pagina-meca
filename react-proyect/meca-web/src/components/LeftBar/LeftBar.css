@@ -1,9 +1,9 @@
 .leftBar {
-    z-index: 100;
+    z-index: 1;
 }
 
 .container-navigation-left {
-    z-index: 1000;
+    z-index: 1;
 }
 
 .leftbar-style {
@@ -15,12 +15,12 @@
     background-color: #cfc6c650;
     border-radius: 0 24px 24px 0;
     cursor:pointer;
-    z-index: 1000;
+    z-index: 1;
 }
 
 .column img {
     width: 80px;
-    z-index: 10000;
+    z-index: 1;
 }
 
 @media only screen and (max-width: 800px) {
