@@ -6,11 +6,11 @@ const listProductos = [
         obra: 'FACEBOOK',
         descripcion : 'Tablero General de Baja Tensión con transferencia automática RED-GRUPO.',
         link_imagenes: [
-            'TABLERO_1/1.jpg',
-            'TABLERO_1/2.jpg',
-            'TABLERO_1/3.jpg',
-            'TABLERO_1/4.jpg',
-            'TABLERO_1/5.jpg',
+            'TABLERO_1/1.webp',
+            'TABLERO_1/2.webp',
+            'TABLERO_1/3.webp',
+            'TABLERO_1/4.webp',
+            'TABLERO_1/5.webp',
         ]
     },
     {
