@@ -268,6 +268,20 @@ const listProductos = [
             'TABLERO_19/19.jpg',
             'TABLERO_19/20.jpg'
         ]
+    },
+    {
+        tableroId : 'TABLERO_20',
+        titulo : 'FILTRO DE ARMONICOS',
+        cliente: 'ENAP',
+        obra: 'PLATAFORMAS OFFSHORE – RÍO GALLEGOS',
+        descripcion : 'Montaje e instalación filtros de armonicos.',
+        link_imagenes: [
+            'TABLERO_20/1.jpg',
+            'TABLERO_20/2.jpg',
+            'TABLERO_20/3.jpg',
+            'TABLERO_20/4.jpg',
+            'TABLERO_20/5.jpg'
+        ]
     }
 ]
 

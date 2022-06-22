@@ -8,7 +8,7 @@ const certificadoSchneider =
         },
         {
             certificadoId : 1,
-            linkImagen: 'lvpanel-schneider-certificaciones-small-min.webp',
+            linkImagen: 'CERTIFICADO ECOXPERT LV PANEL BY SCHNEIDER ELECTRIC.jpeg',
             titulo: 'CERTIFICADO LV PANEL',
             detalle: 'Poseemos una certificación como ECOXPERT LOW VOLTAGE PANEL PANEL PREMIER PLUS; la cual nos habilita a todo el proceso de desarollo de tableros en baja tensión para los distintos sectores de la industría y oficina.'
         },
@@ -30,15 +30,33 @@ const certificadoIram =
     },
     {
         certificadoId : 1,
-        linkImagen: 'certificado-iso-9001.svg',
+        linkImagen: 'IRAM-ISO-9001.webp',
         titulo: 'CERTIFICADO IRAM-ISO 9001:2018',
         detalle: 'Seguimos renovando la Normas ISO 9001:2018, cuyo alcance es: “Diseño, fabricación y puesta en marcha de tableros eléctricos de media y baja tensión para la generación y distribución de energía eléctrica.”'
     },
     {
         certificadoId : 2,
-        linkImagen: 'certificado-iso-45001.svg',
+        linkImagen: 'IQNET-ISO-9001.webp',
+        titulo: 'CERTIFICADO IQNET-ISO 9001:2018',
+        detalle: 'Seguimos renovando la Normas ISO 9001:2018, cuyo alcance es: “Diseño, fabricación y puesta en marcha de tableros eléctricos de media y baja tensión para la generación y distribución de energía eléctrica.”'
+    },
+    {
+        certificadoId : 3,
+        linkImagen: 'IRAM-ISO-45001.webp',
         titulo: 'CERTIFICADO IRAM-ISO 45001:2018',
         detalle: 'Migramos de Normas OSHAS 18001:2017 a Normas ISO 45001:2018, cuyo alcance es: “Diseño, fabricación y puesta en marcha de tableros eléctricos de media y baja tensión para la generación y distribución de energía eléctrica.”'
+    },
+    {
+        certificadoId : 4,
+        linkImagen: 'IQNET-ISO-45001.webp',
+        titulo: 'CERTIFICADO IQNET-ISO 45001:2018',
+        detalle: 'Migramos de Normas OSHAS 18001:2017 a Normas ISO 45001:2018, cuyo alcance es: “Diseño, fabricación y puesta en marcha de tableros eléctricos de media y baja tensión para la generación y distribución de energía eléctrica.”'
+    },
+    {
+        certificadoId : 5,
+        linkImagen: 'ISO-14000.jpg',
+        titulo: 'PROCESO DE CERTIFICACIÓN ISO 14000',
+        detalle: 'Estamos en proceso de certificación de la Norma ISO 14001 con el fin de identificar y controlar el impacto ambiental de nuestras actividades y mejorar su desempaño.'
     }
 ]
 
