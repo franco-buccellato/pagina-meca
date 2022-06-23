@@ -10,7 +10,7 @@ function NavBarDesk({estaEnSupPage}) {
             var currentScrollPos = window.pageYOffset;
             if (150 > currentScrollPos) {
                 document.getElementById('navBar').style.background = '';
-                document.getElementById('navBar').style.height = '150px';
+                document.getElementById('navBar').style.height = '135px';
                 document.getElementById('navBar').style.paddingBottom = '0';
                 document.getElementById('navBar').style.borderRadius = '0'
                 document.getElementById('logo-navBar').src = logoMecaIsologo;

@@ -59,7 +59,7 @@ const listProductos = [
     },
     {
         tableroId : 'TABLERO_5',
-        titulo : 'TABLERO PETROLEROS',
+        titulo : 'TABLEROS PETROLEROS',
         cliente: 'METALÚIRGICA SIAM-ARCÓN',
         obra: 'YPF - NEUQUÉN',
         descripcion : 'Tableros tipo petrolero equipados con sendos Variadores de Velocidad (VDF) para arranque de motores eléctricos de impulsión de bombas de 300 HP.',
@@ -218,7 +218,7 @@ const listProductos = [
     }, */
     {
         tableroId : 'TABLERO_17',
-        titulo : 'MONTAJES DE BANDEAS DE FIBRA ÓPTICA',
+        titulo : 'MONTAJES DE BANDEJAS DE FIBRA ÓPTICA',
         cliente: 'CENTURYLINK',
         obra: 'SALA GOOGLE - ARTIGAS',
         descripcion : 'Montaje e instalación de bandejas para cable de fibra óptica.',
@@ -229,7 +229,7 @@ const listProductos = [
     },
     {
         tableroId : 'TABLERO_18',
-        titulo : 'MONTAJES Y TENDIDO DE CONDUCTORES EN BANDEAS PORTCABLES',
+        titulo : 'MONTAJES Y TENDIDO DE CONDUCTORES EN BANDEJAS PORTCABLES',
         cliente: 'CENTURYLINK',
         obra: 'SALA AMAZON - ARTIGAS',
         descripcion : 'Montaje y tendido de conductores en bandejas portcables.',
