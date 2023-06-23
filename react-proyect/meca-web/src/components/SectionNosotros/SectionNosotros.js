@@ -1,6 +1,8 @@
 import './SectionNosotros.css'; 
-import FotoDuenios from '../../imagenes/eugenio-dario.webp';
-import FotoStaff from '../../imagenes/STAFF4.webp';
+/* import FotoDuenios from '../../imagenes/eugenio-dario.webp'; */
+import FotoDuenios from '../../imagenes/dario-eugenio-2023.png';
+//import FotoStaff from '../../imagenes/STAFF4.webp';
+import FotoStaff from '../../imagenes/foto-meca-aniversario.jpg';
 import LogoStaff from '../../imagenes/icono-staff.webp';
 import LogoObjetivo from '../../imagenes/icono-objetivo.webp';
 import LogoProgreso from '../../imagenes/icono-progreso.webp';

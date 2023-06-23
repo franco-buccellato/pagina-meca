@@ -6,6 +6,7 @@ import iconoFacebook from '../../imagenes/icono-facebook-small-min.webp';
 import iconoYoutube from '../../imagenes/icono-youtube-small-min.webp';
 import iconoWsp from '../../imagenes/icono-wsp-small-min.webp';
 
+
 function LeftBar() {
 
     return (

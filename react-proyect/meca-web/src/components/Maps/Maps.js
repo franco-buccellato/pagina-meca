@@ -19,15 +19,17 @@ const Maps = () => {
                     <div className="row">
                         <div className="col s12 boxInfo">
                             <div>
-                                <i className="material-icons">location_on</i>
+                                <ion-icon name="location-outline"></ion-icon>
                             </div>
                             <div>
                                 <p><b>Dirección de Administración:</b></p>
-                                <p>Correa 2260, 4º P, Apt. 17, C.A.B.A. Argentina.</p>
+                                <p>Correa 2260, 4º P, Depto. 17, C.A.B.A. Argentina.</p>
                                 <p><b>Dirección de Planta Industrial:</b></p>
-                                <p>Gral. Belgrano 3257, Munro, Vicente López, Bs. As. Argentina.</p>
-                                <p><b>Agencia en Chile:</b></p>
+                                <p>Gral. Belgrano 3257, Munro, Vicente López, Buenos Aires Argentina.</p>
+                                <p><b>Dirección de Agencia Comercial en Chile:</b></p>
                                 <p>Camino Otoñal 1639, Las Condes, Santiago, Chile.</p>
+                                <p><b>Dirección de Planta Industrial en Chile:</b></p>
+                                <p>La Montaña 464, Comuna de Colina, Región Metropolitana, Santiago, Chile.</p>
                             </div>
                         </div>
                     </div>

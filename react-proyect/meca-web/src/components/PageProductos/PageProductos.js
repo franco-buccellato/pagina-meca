@@ -4,8 +4,11 @@ import {getProductos} from '../repositorioProductos';
 import Loader from '../Loader/Loader';
 import PageProductoList from './PageProductoList/PageProductoList';
 import fondoTest from '../../imagenes/fondo-encabezado-PageProduct.webp';
+import { animateScroll as scroll} from 'react-scroll';
 
 function PageProductos() {
+
+    scroll.scrollToTop();
 
     const [productos, setProductos] = useState([]);
 

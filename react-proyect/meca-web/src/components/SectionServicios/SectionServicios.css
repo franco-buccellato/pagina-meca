@@ -1,5 +1,5 @@
 #section-servicios {
-    padding-top: 60px;
+    padding-top: 100px;
 }
 
 .section-servicios {
@@ -50,7 +50,12 @@
     display: flex;
 }
 
-.servicios, .servicios-aux {
+.servicios {
+    width: 30%;
+    z-index: 100;
+}
+
+.servicios-aux {
     z-index: 100;
 }
 
@@ -104,6 +109,11 @@
 
 /*RESPONSIVE*/
 @media only screen and (max-width: 1000px) {
+
+    .lista-servicios-montaje-general, .lista-servicios-tablero-general, .lista-servicios-mas-general {
+        display: none;
+    }
+
     .servicios img, .servicios-aux img {
         height: 200px;
         width: 200px;
@@ -212,4 +222,18 @@
     .section-servicios {
         margin-top: 45vw;
     }
+}
+
+
+.linea-servicios-tablero {
+    list-style: none;
+    text-align: initial;
+}
+.linea-servicios-montaje {
+    list-style: none;
+    text-align: initial;
+}
+.linea-servicios-mas {
+    list-style: none;
+    text-align: initial;
 }

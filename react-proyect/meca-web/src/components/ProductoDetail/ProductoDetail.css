@@ -83,6 +83,7 @@
 }
 
 .arrow-back-producto-detail {
+    visibility: hidden;
     width: 60px;
     height: 60px;
     background: #FFE81E;

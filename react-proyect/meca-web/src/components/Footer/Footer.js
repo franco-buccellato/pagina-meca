@@ -1,7 +1,8 @@
 import React from 'react'
 import './Footer.css'
 import Title from './Title/Title'
-import Form from './Form/Form'
+//import Form from './Form/Form'
+import ContactUs from './Form/ContactUs'
 import Message from './Message/Message'
 import Logo from './Logo/Logo'
 
@@ -16,7 +17,7 @@ const Footer = () => {
                 </div>
                 <div className="container-row-column">
                     <div className="container-form">
-                        <Form/>
+                        <ContactUs/>
                     </div>
                     <div className="container-logo">
                         <div className="logo">

@@ -131,26 +131,6 @@ const listProductos = [
             'TABLERO_9/4.jpg'
         ]
     },
-/*     {
-        tableroId : 'TABLERO_10',
-        titulo : 'TABLERO PARA ARRANQUE DE MOTORES',
-        cliente: 'TOTAL AUSTRAL',
-        obra: 'YACIMIENTO RINCÓN DE LA CENIZA - NEUQUÉN',
-        descripcion : 'Tablero para arranque y control de motores',
-        link_imagenes: [
-        ]
-    }, */
-    {
-        tableroId : 'TABLERO_11',
-        titulo : 'TABLERO PARA FILTRADO DE ARMÓNICOS',
-        cliente: 'ENAP',
-        obra: 'PLATAFORMAS OFFSHORE – RÍO GALLEGOS',
-        descripcion : 'Tablero para filtrado de armónicos y compensación de energía reactiva.',
-        link_imagenes: [
-            'TABLERO_11/1.jpg',
-            'TABLERO_11/2.jpg'
-        ]
-    },
     {
         tableroId : 'TABLERO_12',
         titulo : 'SET COMPACTA',
@@ -167,7 +147,7 @@ const listProductos = [
     },
     {
         tableroId : 'TABLERO_13',
-        titulo : 'TABLERO POTENCIA DE 5000A',
+        titulo : 'TABLERO DE CORRIENTE NOMINAL 5000A',
         cliente: 'CENTURYLINK',
         obra: 'AMPLIACIÓN ARTIGAS I',
         descripcion : 'Tablero de potencia para transformadores 3150kVA.',
@@ -229,10 +209,10 @@ const listProductos = [
     },
     {
         tableroId : 'TABLERO_18',
-        titulo : 'MONTAJES Y TENDIDO DE CONDUCTORES EN BANDEJAS PORTCABLES',
+        titulo : 'MONTAJES Y TENDIDO DE CONDUCTORES EN BANDEJAS PORTACABLES',
         cliente: 'CENTURYLINK',
         obra: 'SALA AMAZON - ARTIGAS',
-        descripcion : 'Montaje y tendido de conductores en bandejas portcables.',
+        descripcion : 'Montaje y tendido de conductores en bandejas portacables.',
         link_imagenes: [
             'TABLERO_18/1.jpg',
             'TABLERO_18/2.jpg',
@@ -271,10 +251,10 @@ const listProductos = [
     },
     {
         tableroId : 'TABLERO_20',
-        titulo : 'FILTRO DE ARMONICOS',
+        titulo : 'TABLERO PARA FILTRADO DE ARMÓNICOS',
         cliente: 'ENAP',
         obra: 'PLATAFORMAS OFFSHORE – RÍO GALLEGOS',
-        descripcion : 'Montaje e instalación filtros de armonicos.',
+        descripcion : 'Montaje e instalación filtros de armónicos.',
         link_imagenes: [
             'TABLERO_20/1.jpg',
             'TABLERO_20/2.jpg',
@@ -319,7 +299,7 @@ export const getProductoById = (idProducto) => {
                             producto => producto.tableroId === idProducto
                         )
                     )
-                }, 100
+                }, 1000
             )
         }
     )

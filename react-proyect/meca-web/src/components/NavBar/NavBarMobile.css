@@ -68,6 +68,7 @@ ion-icon {
     margin: 0;
     padding-left: 0;
     z-index: 1000000;
+    margin-top: 5vw;
 }
 .list-responsive {
     display: flex;

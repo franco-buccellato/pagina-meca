@@ -97,6 +97,11 @@
     border-radius: 5px;
 }
 
+.bandera-navBar {
+    width: 40px;
+    vertical-align: middle;
+}
+
 /*RESPONSIVE*/
 @media only screen and (max-width: 1200px) {
     .navigation {
@@ -110,11 +115,17 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    .container-logo-marca img {
+/*     .container-logo-marca img {
         height: 80px;
         width: 120px;
         padding-left: 20%;
         padding-bottom: 5%;
+    } */
+
+    .container-logo-marca {
+        /* display: none; */
+        visibility: hidden;
+        width: 50px
     }
 }
 

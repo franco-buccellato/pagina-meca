@@ -3,11 +3,15 @@ import arrowBack from '../../imagenes/icono-arrow-back.webp';
 import arrowNext from '../../imagenes/icono-arrow-next.webp';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { animateScroll as scroll} from 'react-scroll';
 const imagenProducto = require.context('../../imagenes/Productos/', true);
+
 
 const ProductoDetail = ({tableroId, titulo, cliente, obra, descripcion, link_imagenes}) => {
 
-    const [indiceImagen, setIndiceImagen] = useState(0);
+    scroll.scrollToTop();
+
+    const [indiceImagen = 1, setIndiceImagen] = useState(0);
 
     useEffect(
         () => {
@@ -17,10 +21,28 @@ const ProductoDetail = ({tableroId, titulo, cliente, obra, descripcion, link_ima
 
     const prevImagen = () => {
         indiceImagen >= 1 ? setIndiceImagen(indiceImagen - 1) : console.log('Primer Imagen.');
+        indiceImagen >= 2 ? console.log('Falta') : ocultarArrowBack();
+        mostrarArrowNext();
     }
 
     const nextImagen = () => {
         indiceImagen < link_imagenes.length - 1 ? setIndiceImagen(indiceImagen + 1) : console.log("Última Imagen.");
+        indiceImagen < link_imagenes.length - 2 ? console.log('Falta') : ocultarArrowNext();
+        mostrarArrowBack();
+    }
+
+    const ocultarArrowNext = () =>  {
+        //document.getElementById('arrow-next-id').style = 'display:none';
+        document.getElementById('arrow-next-id').style = 'visibility: hidden';
+    }
+    const mostrarArrowNext = () =>  {
+        document.getElementById('arrow-next-id').style = 'visibility:visible';
+    }
+    const ocultarArrowBack = () =>  {
+        document.getElementById('arrow-back-id').style = 'visibility:hidden';
+    }
+    const mostrarArrowBack = () =>  {
+        document.getElementById('arrow-back-id').style = 'visibility:visible';
     }
 
     return (
@@ -35,7 +57,7 @@ const ProductoDetail = ({tableroId, titulo, cliente, obra, descripcion, link_ima
             </div>
             <div className="producto-detail">
                 <div className="producto-carrousel">
-                    <div className='arrow-back-producto-detail'>
+                    <div className='arrow-back-producto-detail' id='arrow-back-id'>
                         <div className='arrow-back-icono-producto-detail' onClick={() => prevImagen()}>
                             <img alt='Arrow Back' src={arrowBack}></img>
                         </div>
@@ -51,7 +73,7 @@ const ProductoDetail = ({tableroId, titulo, cliente, obra, descripcion, link_ima
                             height={500}
                         ></img>
                     </div>
-                    <div className='arrow-next-producto-detail'>
+                    <div className='arrow-next-producto-detail' id='arrow-next-id'>
                         <div className='arrow-next-icono-producto-detail' onClick={() => nextImagen()}>
                             <img alt='Arrow Next' src={arrowNext}></img>
                         </div>

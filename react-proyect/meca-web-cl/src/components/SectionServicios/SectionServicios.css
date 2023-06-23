@@ -1,0 +1,239 @@
+#section-servicios {
+    padding-top: 100px;
+}
+
+.section-servicios {
+    text-align: center;
+    margin-top: 50vw;
+}
+
+.section-servicos-tittle {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+    z-index: 1;
+}
+
+.container-section-servicios-base {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 10%;
+    z-index: 1;
+}
+
+.container-section-servicios-tablero {
+    display: flex;
+    width: 80%;
+    margin: 0 10%;
+    z-index: 1;
+}
+
+.container-section-servicios-mas {
+    display: flex;
+    width: 80%;
+    margin: 0 10%;
+    z-index: 1;
+}
+
+.container-section-servicios-montaje {
+    display: flex;
+    justify-content:center;
+    width: 80%;
+    margin: 0 10%;
+    z-index: 1;
+}
+
+.card-tablero, .card-montaje, .card-mas {
+    display: flex;
+}
+
+.servicios {
+    width: 30%;
+    z-index: 100;
+}
+
+.servicios-aux {
+    z-index: 100;
+}
+
+.servicios img, .servicios-aux img {
+    width: 240px;
+    height: 240px;
+    z-index: 1000;
+}
+
+.servicio-base {
+    box-sizing: border-box;
+    width: 271px;
+    height: 271px;
+    background: rgba(229, 229, 229, 0.21);
+    border: 1px solid #FFE925;
+    box-shadow: 5px 7px 13px rgba(0, 0, 0, 0.12);
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.servicio-montaje {
+    box-sizing: border-box;
+    width: 271px;
+    height: 271px;
+    background: rgba(229, 229, 229, 0.21);
+    border: 1px solid #FFE925;
+    box-shadow: 5px 7px 13px rgba(0, 0, 0, 0.12);
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.servicio-mas {
+    box-sizing: border-box;
+    width: 271px;
+    height: 271px;
+    background: rgba(229, 229, 229, 0.21);
+    border: 1px solid #FFE925;
+    box-shadow: 5px 7px 13px rgba(0, 0, 0, 0.12);
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.servicio-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.servicio-responsive {
+    display: none;
+}
+
+/*RESPONSIVE*/
+@media only screen and (max-width: 1000px) {
+
+    .lista-servicios-montaje-general, .lista-servicios-tablero-general, .lista-servicios-mas-general {
+        display: none;
+    }
+
+    .servicios img, .servicios-aux img {
+        height: 200px;
+        width: 200px;
+        z-index: 1000;
+    }
+    .section-servicios {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 5%;
+        margin-top: 25vw;
+    }
+    .container-section-servicios-tablero {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-around;
+        /* align-items: center; */
+        width: 90%;
+    }
+    .container-section-servicios-montaje {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-around;
+        /* align-items: center; */
+        width: 90%;
+    }
+    .container-section-servicios-mas {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-around;
+        /* align-items: center; */
+        width: 90%;
+    }
+    .section-servicos-tittle {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    .servicios-aux {
+        z-index: 100;
+        width: 100%;
+    }
+    .servicios-aux img {
+        width: 150px;
+        height: 150px;
+    }
+    .card-tablero, .card-montaje, .card-mas {
+        display: block;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .section-servicios {
+        margin-top: 45vw;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .section-servicios {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 5%;
+        margin-top: 85vw;
+        padding-top: 0;
+    }
+    .container-section-servicios-tablero {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        z-index: 1000;
+    }
+    .container-section-servicios-montaje {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        z-index: 1000;
+    }
+    .container-section-servicios-mas {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        z-index: 1000;
+    }
+    .servicios img, .servicios-aux-mobile img {
+        height: 150px;
+        width: 150px;
+        z-index: 100000;
+    }
+    .servicios {
+        z-index: 100;
+        width: 100%;
+    }
+    .servicios-aux {
+        z-index: 100;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .section-servicios {
+        margin-top: 45vw;
+    }
+}
+
+
+.linea-servicios-tablero {
+    list-style: none;
+    text-align: initial;
+}
+.linea-servicios-montaje {
+    list-style: none;
+    text-align: initial;
+}
+.linea-servicios-mas {
+    list-style: none;
+    text-align: initial;
+}

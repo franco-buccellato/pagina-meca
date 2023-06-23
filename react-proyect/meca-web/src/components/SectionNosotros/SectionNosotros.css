@@ -54,12 +54,19 @@
     align-items: center;
     width: 50%;
     height: 250px;
-    padding: 25PX 0;
+    padding: 75px 0;
+}
+
+.nosotros-1-detalles span b {
+    font-size: 20px;    
+    width: 80%;
 }
 
 .nosotros-1-detalles span {
+    font-size: 15px;    
     width: 80%;
 }
+
 
 .container-nosotros-2 {
     display: flex;
@@ -103,7 +110,7 @@
 }
 
 .nosotros-2-items-1-detalle span {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .nosotros-2-items-2 {
@@ -132,7 +139,7 @@
 }
 
 .nosotros-2-items-2-detalle span {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .nosotros-2-items-3 {
@@ -161,7 +168,7 @@
 }
 
 .nosotros-2-items-3-detalle span {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .nosotros-2-staff {

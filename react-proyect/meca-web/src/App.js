@@ -6,9 +6,11 @@ import ProductoDetailContainer from './components/ProductoDetailContainer/Produc
 import PageProductos from './components/PageProductos/PageProductos';
 import LandingPage from './components/LandingPage/LandingPage';
 import Maps from './components/Maps/Maps';
+/* import ReactGA from 'react-ga'; */
 
 
 function App() {
+  /* ReactGA.initialize('UA-000000000-0'); */
   return (
     <BrowserRouter>
       <NavBarGestor/>

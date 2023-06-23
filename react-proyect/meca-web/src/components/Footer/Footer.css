@@ -4,6 +4,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .container-footer {
@@ -39,7 +40,7 @@ footer {
     align-items: center;
     justify-content: center;
     width: 50%;
-    height: 550px;
+    height: 450px;
 }
 
 .container-logo {
@@ -150,29 +151,19 @@ textarea {
 
 textarea {
     min-height: 200px;
+    max-width: 100%;
 }
 
-input[type="submit"] {
-    background: #FFE925;
-    box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 31px;
-    color: #181818;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    width: 60%;
-}
 
 .form-row a {
     display: flex;
     justify-content: center;
 }
 
-input[type="enviar"] {
+input[type="submit"] {
+    display: flex;
+    justify-content: center;
+    margin: 0 100px;
     background: #FFE925;
     box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
@@ -189,30 +180,6 @@ input[type="enviar"] {
 }
 
 input[type="submit"]:hover {
-    box-shadow: 3px 4px 7px 5px rgba(0, 0, 0, 0.15);
-}
-input[type="enviar"]:hover {
-    box-shadow: 3px 4px 7px 5px rgba(0, 0, 0, 0.15);
-}
-
-form label {
-    background: rgba(229, 229, 229, 0.17);
-    box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.15);
-    border-radius: 25px;
-    padding: 1em 2em;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: 0.1px;
-    color: rgba(24, 23, 29, 0.42);
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-form label:hover {
     box-shadow: 3px 4px 7px 5px rgba(0, 0, 0, 0.15);
 }
 
@@ -242,6 +209,6 @@ form label:hover {
         flex-direction: column;
     }
         .container-form {
-        height: 700px;
+        height: 450px;
     }
 }

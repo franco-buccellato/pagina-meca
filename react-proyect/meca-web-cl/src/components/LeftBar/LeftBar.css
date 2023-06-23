@@ -1,0 +1,55 @@
+.leftBar {
+    z-index: 1;
+}
+
+.container-navigation-left {
+    z-index: 1;
+}
+
+.leftbar-style {
+    position:fixed;
+    margin-top: 2px;
+    list-style-type:none;
+    padding: 10px 0;
+    margin: 0px 0px 1px 0px;
+    background-color: #cfc6c650;
+    border-radius: 0 24px 24px 0;
+    cursor:pointer;
+    z-index: 1;
+}
+
+.column img {
+    width: 80px;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 800px) {
+    .leftbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 300px;
+    }
+    .leftbar-style {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #FFE925;
+        border-radius: 24px;
+    }
+    .column img {
+    width: 80px;
+    margin: 0 -10PX;
+}
+}
+
+@media only screen and (max-width: 650px) {
+    .leftbar {
+        padding-top: 300px;
+    }
+}

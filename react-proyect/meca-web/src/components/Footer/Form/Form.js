@@ -1,11 +1,12 @@
 import React from 'react'
 import InputBox from '../InputBox/InputBox'
 import TextArea from '../TextArea/TextArea'
+import SendEmail from '../../../enviarMail'
 
 const Form = () => {
 
     return (
-        <form>
+        <form nSubmit = {SendEmail}>
             <div className="form-row" >
                 <InputBox
                     caption="* Nombre"
@@ -17,34 +18,15 @@ const Form = () => {
                 />
             </div>
             <div className="form-row">
-                <InputBox
-                    caption="* E-mail"
-                    type="email"
-                />
-                <InputBox
-                    caption="Teléfono"
-                    type="tel"
-                />
-            </div>
-            <div className="form-row">
                 <TextArea
                     caption="Escriba aquí su mensaje"
                 />
             </div>
             <div className="form-row">
-                <InputBox
-                    caption="Seleccionar archivo para subir"
-                    type="file"
-                />
-            </div>
-            <div className="form-row">
-                <a href=
-                'mailto:info@mecaelectromecanica.com.ar?Subject=Quiero%20trabajar%20con%20ustedes'>
                     <InputBox
                         caption="Enviar"
-                        type="enviar"
+                        type="submit"
                     />
-                </a>
             </div>
         </form>
     )

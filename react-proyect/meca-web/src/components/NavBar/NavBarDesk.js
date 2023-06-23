@@ -2,6 +2,8 @@ import './NavBarDesk.css';
 import {Link} from 'react-router-dom';
 import logoMecaIsologo from '../../imagenes/meca-logo-isologo-small-min.webp';
 import logoMecaTexto from '../../imagenes/logo-meca-text.webp';
+import argentina from '../../imagenes/argentina.png';
+import chile from '../../imagenes/chile.png';
 
 function NavBarDesk({estaEnSupPage}) {
 
@@ -42,6 +44,11 @@ function NavBarDesk({estaEnSupPage}) {
                         <ul className='navbar-style'>
                             <li className="list" id='title-productos' >
                                 <Link to = {'/'}>
+                                    <h2 className='list-text'>Servicios</h2>
+                                </Link>
+                            </li>
+                            <li className="list" id='title-productos' >
+                                <Link to = {'/productos'}>
                                     <h2 className='list-text'>Productos</h2>
                                 </Link>
                             </li>
@@ -67,8 +74,18 @@ function NavBarDesk({estaEnSupPage}) {
                             </li>
                             <li className="list-trabaja-con-nosotros" id='title-trabaja-con-nosotros' >
                                 <Link to = {'/'}>
-                                    <h2 className='list-text' id='button-trabaja'>Trabajá con Nosotros</h2>
+                                    <h2 className='list-text' id='button-trabaja'>Contáctanos</h2>
                                 </Link>
+                            </li>
+                            <li className="list-bandera-1" id='title-trabaja-con-nosotros' >
+                                <a href='http://www.mecaelectromecanica.com.ar/'>
+                                    <img className='bandera-navBar' alt='Bandera Argentina' src={argentina}></img>
+                                </a>
+                            </li>
+                            <li className="list-bandera-2" id='title-trabaja-con-nosotros' >
+                                <a href='http://www.mecaelectromecanica.com.cl/'>
+                                    <img className='bandera-navBar' alt='Bandera Chile' src={chile}></img>
+                                </a>
                             </li>
                         </ul>
                     </nav>
@@ -89,8 +106,13 @@ function NavBarDesk({estaEnSupPage}) {
                     <ul className='navbar-style'>
                         <li className="list" id='title-productos' >
                             <a href='#section-servicios'>
-                                <h2 className='list-text'>Productos</h2>
+                                <h2 className='list-text'>Servicios</h2>
                             </a>
+                        </li>
+                        <li className="list" id='title-productos' >
+                            <Link to = {'/productos'}>
+                                <h2 className='list-text'>Productos</h2>
+                            </Link>
                         </li>
                         <li className="list" id='title-clientes' >
                             <a href='#section-clientes'>
@@ -98,7 +120,7 @@ function NavBarDesk({estaEnSupPage}) {
                             </a>
                         </li>
                         <li className="list" id='title-nosotros' >
-                            <a href='#section-nosotros-id'>
+                            <a href='#section-nosotros'>
                                 <h2 className='list-text'>Nosotros</h2>
                             </a>
                         </li>
@@ -114,7 +136,17 @@ function NavBarDesk({estaEnSupPage}) {
                         </li>
                         <li className="list-trabaja-con-nosotros" id='title-trabaja-con-nosotros' >
                             <a href='#section-conocenos'>
-                                <h2 className='list-text' id='button-trabaja'>Trabajá con Nosotros</h2>
+                                <h2 className='list-text' id='button-trabaja'>Contáctanos</h2>
+                            </a>
+                        </li>
+                        <li className="list-bandera-1" id='title-trabaja-con-nosotros' >
+                            <a href='http://www.mecaelectromecanica.com.ar/'>
+                                <img className='bandera-navBar' alt='Bandera Argentina' src={argentina}></img>
+                            </a>
+                        </li>
+                        <li className="list-bandera-2" id='title-trabaja-con-nosotros' >
+                            <a href='http://www.mecaelectromecanica.com.cl/'>
+                                <img className='bandera-navBar' alt='Bandera Chile' src={chile}></img>
                             </a>
                         </li>
                     </ul>

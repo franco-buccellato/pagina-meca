@@ -1,19 +1,29 @@
 import './NavBarMobile.css';
 import {Link} from 'react-router-dom';
 import logoMecaTexto from '../../imagenes/logo-meca-text.webp';
+import argentina from '../../imagenes/argentina.png';
+import chile from '../../imagenes/chile.png';
 
 function NavBarMobile({estaEnSupPage}) {
     function DesplegarMenu() {
-        document.getElementById('navbar-list-responsive').style.display = 'flex';
-        document.getElementById('open').style.display = 'none';
-        document.getElementById('close').style.display = 'flex';
+        if(document.getElementById('navbar-list-responsive')) {
+            document.getElementById('navbar-list-responsive').style.display = 'flex';
+            document.getElementById('open').style.display = 'none';
+            document.getElementById('close').style.display = 'flex';
+        }
     }
 
     function GuardarMenu() {
-        document.getElementById('navbar-list-responsive').style.display = 'none';
-        document.getElementById('open').style.display = 'flex';
-        document.getElementById('close').style.display = 'none';
+        if(document.getElementById('navbar-list-responsive')) {
+            document.getElementById('navbar-list-responsive').style.display = 'none';
+            document.getElementById('open').style.display = 'flex';
+            document.getElementById('close').style.display = 'none';
+        }
     }
+
+    //Si se detecta un click guardar el menú
+    document.addEventListener("click", GuardarMenu());
+
     if(estaEnSupPage !== '/') {
         return (
             <div className="navbar" id='top-landig-page'>
@@ -40,6 +50,11 @@ function NavBarMobile({estaEnSupPage}) {
                         <ul className='navbar-list-responsive' id='navbar-list-responsive'>
                             <li className="list-responsive" id='title-productos' >
                                 <Link to = {'/'}>
+                                    <h2 className='list-text-responsive'><ion-icon name="hammer-outline"></ion-icon>Servicios</h2>
+                                </Link>
+                            </li>
+                            <li className="list-responsive" id='title-productos' >
+                                <Link to = {'/productos'}>
                                     <h2 className='list-text-responsive'><ion-icon name="hammer-outline"></ion-icon>Productos</h2>
                                 </Link>
                             </li>
@@ -65,8 +80,16 @@ function NavBarMobile({estaEnSupPage}) {
                             </li>
                             <li className="list-responsive" id='title-trabaja-con-nosotros' >
                                 <Link to = {'/'}>
-                                    <h2 className='list-text-responsive'><ion-icon name="git-pull-request-outline"></ion-icon>Trabajá con Nosotros</h2>
+                                    <h2 className='list-text-responsive'><ion-icon name="git-pull-request-outline"></ion-icon>Contáctanos</h2>
                                 </Link>
+                            </li>
+                            <li className="list-responsive" id='title-trabaja-con-nosotros' >
+                                <a href='http://www.mecaelectromecanica.com.ar/'>
+                                    <img className='bandera-navBar' alt='Bandera Argentina' src={argentina}></img>
+                                </a>
+                                <a href='http://www.mecaelectromecanica.com.cl/'>
+                                    <img className='bandera-navBar' alt='Bandera Chile' src={chile}></img>
+                                </a>
                             </li>
                         </ul>
                     </nav>
@@ -100,8 +123,13 @@ function NavBarMobile({estaEnSupPage}) {
                     <ul className='navbar-list-responsive' id='navbar-list-responsive'>
                         <li className="list-responsive" id='title-productos' >
                             <a href='#section-servicios'>
-                                <h2 className='list-text-responsive'><ion-icon name="hammer-outline"></ion-icon>Productos</h2>
+                                <h2 className='list-text-responsive'><ion-icon name="hammer-outline"></ion-icon>Servicios</h2>
                             </a>
+                        </li>
+                        <li className="list-responsive" id='title-productos' >
+                            <Link to = {'/productos'}>
+                                <h2 className='list-text-responsive'><ion-icon name="hammer-outline"></ion-icon>Productos</h2>
+                            </Link>
                         </li>
                         <li className="list-responsive" id='title-clientes' >
                             <a href='#section-clientes'>
@@ -125,8 +153,16 @@ function NavBarMobile({estaEnSupPage}) {
                             </a>
                         </li>
                         <li className="list-responsive" id='title-trabaja-con-nosotros' >
-                            <a href='#section-contactanos'>
-                                <h2 className='list-text-responsive'><ion-icon name="git-pull-request-outline"></ion-icon>Trabajá con Nosotros</h2>
+                            <a href='#section-conocenos'>
+                                <h2 className='list-text-responsive'><ion-icon name="git-pull-request-outline"></ion-icon>Contáctanos</h2>
+                            </a>
+                        </li>
+                        <li className="list-responsive" id='title-trabaja-con-nosotros' >
+                            <a href='http://www.mecaelectromecanica.com.ar/'>
+                                <img className='bandera-navBar' alt='Bandera Argentina' src={argentina}></img>
+                            </a>
+                            <a href='http://www.mecaelectromecanica.com.cl/'>
+                                <img className='bandera-navBar' alt='Bandera Chile' src={chile}></img>
                             </a>
                         </li>
                     </ul>

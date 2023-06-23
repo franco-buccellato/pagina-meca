@@ -1,0 +1,251 @@
+.container-section-clientes {
+    margin-top: 200px;
+}
+
+.container-banner-clientes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container-banner-icono {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    z-index: 1000;
+}
+
+.container-banner-icono img {
+    height: 250px;
+}
+
+.container-banner-background {
+    margin-top: -150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+}
+
+.container-banner-background-imagen {
+    display: flex;
+    height: 500px;
+    /* width: 100%; */
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-image: url("../../imagenes/parque-clientes-recortado.webp");
+    background-position: center top;
+    background-size: 100%;
+    /* background-size: auto; */
+    z-index: -100000;
+}
+
+.container-banner-background-texto {
+    margin-top: -100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-banner-background-texto span {
+    width: 70%;
+    font-size: 27px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container-banner-carrousel {
+    margin-top: -100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #FFFFFFc7;
+    z-index: 0;
+}
+
+.container-experiencias, .container-experiencias-subtitulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-experiencias {
+    margin-top: 50px;
+}
+
+.container-experiencias-subtitulo span {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.container-experiencias-subtitulo-1 {
+    width: 100%;
+    text-align: left;
+}
+.container-experiencias-subtitulo-2 {
+    width: 100%;
+    text-align: left;
+    margin-right: -50%;
+}
+
+.container-experiencias-icono {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 90%;
+}
+
+.container-experiencias-comentarios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.container-experiencias-comentario-columna-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.container-experiencias-comentario-columna-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.container-experiencias-comentario-linea-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -125px;
+}
+.container-experiencias-comentario-linea-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+.container-experiencias-comentario-linea-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: -125px;
+}
+
+.container-experiencias-comentario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    width: 400px;
+    filter: drop-shadow(-12px 19px 13px rgba(164, 164, 164, 0.25));
+    border-radius: 50px;
+    background: #FFFFFF;
+    margin: 10px;
+    padding: 15px 5px;
+}
+
+.experiencias-comentario-puntaje {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    width: 90%;
+}
+
+.experiencias-comentario-comentario {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.experiencias-comentario-persona {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    width: 90%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-experiencias-comentarios ion-icon {
+    color: #FFE925;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container-banner-background-imagen {
+        background-position: right top;
+        background-size: auto;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-experiencias-subtitulo span {
+        font-size: 46px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .container-experiencias-comentarios {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container-experiencias-comentario-columna-1,
+    .container-experiencias-comentario-columna-2 {
+        width: 90%;
+    }
+    .container-experiencias-comentario-linea-1,
+    .container-experiencias-comentario-linea-2,
+    .container-experiencias-comentario-linea-3 {
+        margin-top: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-experiencias-subtitulo span {
+        font-size: 36px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container-banner-background-texto span {
+        width: 90%;
+        font-size: 23px;
+    }
+    .container-experiencias-icono {
+        display: none;
+    }
+    .container-experiencias-subtitulo span {
+        font-size: 30px;
+    }
+    .container-experiencias-subtitulo-2 {
+    margin-right: 0;
+}
+}

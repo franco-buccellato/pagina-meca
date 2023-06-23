@@ -1,0 +1,8 @@
+@media only screen and (max-width: 600px) {
+    iframe {
+        /* width : 560px;
+        height : 315px; */
+        width: 280px;
+        height: 160px;
+    }
+}

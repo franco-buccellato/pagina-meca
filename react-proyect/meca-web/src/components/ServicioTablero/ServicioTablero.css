@@ -116,6 +116,9 @@
 .servicios-aux-mobile { 
     display: none;
 }
+.container-section-servicios-tablero-lineas {
+    display: none;
+}
 
 /*RESPONSIVE*/
 @media only screen and (max-width: 1000px) {
